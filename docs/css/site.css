@@ -42,6 +42,17 @@ b {
     margin-top: 0.4rem;
 }
 
+.control-label.inline {
+    display: inline;
+}
+
+.form-control.inline {
+    display: inline;
+    background-color: revert;
+    border: revert;
+    padding-left: revert;
+}
+
 .swatch {
     display: block;
     
