@@ -350,4 +350,8 @@
     </None>
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /I /E /Y &quot;$(TargetDir)\wwwroot\*.*&quot; &quot;..\Html Output\&quot;" />
+  </Target>
+
 </Project>
