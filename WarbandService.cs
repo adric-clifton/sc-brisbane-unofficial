@@ -161,7 +161,7 @@ namespace SwordcraftBrisbane.Data
         static readonly Regex SearchForLogo
             = new Regex(@"(?<=<img class=""autoSpace block p200"" src=""\.\.\/Images\/)XXXXXX");
         static readonly Regex ReplaceFullRoleBlock
-            = new Regex(@"(?<=for=""Warband_Roles"">Roles</label>\r\n {12}<div class=""card-body"">)(?:[\r\n\s]+[^\n]+){12}");
+            = new Regex(@"(?<=for=""Warband_Roles"">Roles</label>\r\n {24}<div class=""card-body"">)(?:[\r\n\s]+[^\n]+){12}");
         static readonly Regex ReplaceFullWeaponBlock
             = new Regex(@"(?<=style=""display: flex"">)(?:[\r\n\s]+[^\n]+){18}");
 
