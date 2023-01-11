@@ -12,7 +12,7 @@ namespace SwordcraftBrisbane.Data
             {
             }
 
-            protected override string Prefix => "";
+            protected override string Prefix => "a";
         }
 
         public abstract record RangedWeapon : Weapon
@@ -50,7 +50,7 @@ namespace SwordcraftBrisbane.Data
             protected override string Prefix => "x";
 
             public override string ImageName => Type == null
-                ? "_default" : $"{Prefix}_{Type.ToLower()}";
+                ? "a_default" : $"{Prefix}_{Type.ToLower()}";
         }
 
         public abstract record Weapon : ListElement

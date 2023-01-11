@@ -26,6 +26,8 @@
     <None Remove="wwwroot\Images\12.jpg" />
     <None Remove="wwwroot\Images\13.jpg" />
     <None Remove="wwwroot\Images\favicon.ico" />
+    <None Remove="wwwroot\Images\weapons\a_blank.png" />
+    <None Remove="wwwroot\Images\weapons\a_default.png" />
     <None Remove="wwwroot\Images\weapons\m_axe.png" />
     <None Remove="wwwroot\Images\weapons\m_curved.png" />
     <None Remove="wwwroot\Images\weapons\m_dagger.png" />
@@ -49,8 +51,6 @@
     <None Remove="wwwroot\Images\weapons\x_choppa.png" />
     <None Remove="wwwroot\Images\weapons\x_music.png" />
     <None Remove="wwwroot\Images\weapons\x_stocks.png" />
-    <None Remove="wwwroot\Images\weapons\_blank.png" />
-    <None Remove="wwwroot\Images\weapons\_default.png" />
     <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
     <None Remove="wwwroot\Warbands\RequiredForFolder.txt" />
     <None Remove="xml\01-jaegers.xml" />
@@ -192,10 +192,10 @@
     <Content Include="wwwroot\Images\weapons\x_stocks.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="wwwroot\Images\weapons\_blank.png">
+    <Content Include="wwwroot\Images\weapons\a_blank.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="wwwroot\Images\weapons\_default.png">
+    <Content Include="wwwroot\Images\weapons\a_default.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
