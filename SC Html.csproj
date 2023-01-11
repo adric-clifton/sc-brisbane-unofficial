@@ -1,0 +1,381 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SC_Html</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\css\site.css" />
+    <None Remove="wwwroot\css\styles.css" />
+    <None Remove="wwwroot\HouseRules.html" />
+    <None Remove="wwwroot\Images\01.jpg" />
+    <None Remove="wwwroot\Images\02.jpg" />
+    <None Remove="wwwroot\Images\03.jpg" />
+    <None Remove="wwwroot\Images\04.jpg" />
+    <None Remove="wwwroot\Images\05.jpg" />
+    <None Remove="wwwroot\Images\06.jpg" />
+    <None Remove="wwwroot\Images\07.jpg" />
+    <None Remove="wwwroot\Images\08.jpg" />
+    <None Remove="wwwroot\Images\09.jpg" />
+    <None Remove="wwwroot\Images\10.jpg" />
+    <None Remove="wwwroot\Images\11.jpg" />
+    <None Remove="wwwroot\Images\12.jpg" />
+    <None Remove="wwwroot\Images\13.jpg" />
+    <None Remove="wwwroot\Images\favicon.ico" />
+    <None Remove="wwwroot\Images\weapons\m_axe.png" />
+    <None Remove="wwwroot\Images\weapons\m_curved.png" />
+    <None Remove="wwwroot\Images\weapons\m_dagger.png" />
+    <None Remove="wwwroot\Images\weapons\m_greatsword.png" />
+    <None Remove="wwwroot\Images\weapons\m_halberd.png" />
+    <None Remove="wwwroot\Images\weapons\m_longaxe.png" />
+    <None Remove="wwwroot\Images\weapons\m_mace.png" />
+    <None Remove="wwwroot\Images\weapons\m_pike.png" />
+    <None Remove="wwwroot\Images\weapons\m_rapier.png" />
+    <None Remove="wwwroot\Images\weapons\m_staff.png" />
+    <None Remove="wwwroot\Images\weapons\m_sword.png" />
+    <None Remove="wwwroot\Images\weapons\m_warhammer.png" />
+    <None Remove="wwwroot\Images\weapons\r_bow.png" />
+    <None Remove="wwwroot\Images\weapons\r_crossbow.png" />
+    <None Remove="wwwroot\Images\weapons\r_pistol.png" />
+    <None Remove="wwwroot\Images\weapons\r_rifle.png" />
+    <None Remove="wwwroot\Images\weapons\s_kite.png" />
+    <None Remove="wwwroot\Images\weapons\s_oval.png" />
+    <None Remove="wwwroot\Images\weapons\s_round.png" />
+    <None Remove="wwwroot\Images\weapons\s_teardrop.png" />
+    <None Remove="wwwroot\Images\weapons\x_choppa.png" />
+    <None Remove="wwwroot\Images\weapons\x_music.png" />
+    <None Remove="wwwroot\Images\weapons\x_stocks.png" />
+    <None Remove="wwwroot\Images\weapons\_blank.png" />
+    <None Remove="wwwroot\Images\weapons\_default.png" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Remove="wwwroot\Warbands\RequiredForFolder.txt" />
+    <None Remove="xml\01-jaegers.xml" />
+    <None Remove="xml\02-del_mare.xml" />
+    <None Remove="xml\03-bretonnia.xml" />
+    <None Remove="xml\04-orcs.xml" />
+    <None Remove="xml\05-blackwatch.xml" />
+    <None Remove="xml\06-rats.xml" />
+    <None Remove="xml\07-dancers.xml" />
+    <None Remove="xml\08-cathay.xml" />
+    <None Remove="xml\09-nuln.xml" />
+    <None Remove="xml\10-volto.xml" />
+    <None Remove="xml\11-order.xml" />
+    <None Remove="xml\12-chaos.xml" />
+    <None Remove="xml\13-confradia.xml" />
+    <None Remove="xml\_indexTemplate.html" />
+    <None Remove="xml\_template.html" />
+    <None Remove="xml\_template.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\site.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\css\styles.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\HouseRules.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\02.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\03.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\04.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\05.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\06.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\07.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\08.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\09.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_axe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_curved.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_dagger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_greatsword.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_halberd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_longaxe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_mace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_rapier.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_pike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_staff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_sword.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\m_warhammer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\r_bow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\r_crossbow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\r_pistol.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\r_rifle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\s_kite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\s_oval.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\s_round.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\s_teardrop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\x_choppa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\x_music.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\x_stocks.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\_blank.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Images\weapons\_default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wwwroot\Warbands\RequiredForFolder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\01-jaegers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\02-del_mare.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\03-bretonnia.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\04-orcs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\05-blackwatch.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\06-rats.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\07-dancers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\08-cathay.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\09-nuln.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\10-volto.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\11-order.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\12-chaos.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\13-confradia.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\_indexTemplate.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\_template.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xml\_template.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
