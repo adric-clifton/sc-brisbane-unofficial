@@ -351,7 +351,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy /I /E /Y &quot;$(TargetDir)\wwwroot\*.*&quot; &quot;..\Html Output\&quot;" />
+    <Exec Command="xcopy /I /E /Y &quot;$(TargetDir)\wwwroot\*.*&quot; &quot;.\docs\&quot;" />
   </Target>
 
 </Project>

@@ -1,0 +1,173 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.control-label, .card-header {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+b {
+    font-variant: small-caps;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-body > .card + .card {
+    margin-top: 0.4rem;
+}
+
+.card-body > .card {
+    margin-bottom: initial;
+}
+
+.form-group + .form-group {
+    margin-top: 0.4rem;
+}
+
+.swatch {
+    display: block;
+    
+    width: 100%;
+    border: 1px dotted black;
+}
+
+.outlined {
+    border: 2px black;
+}
+
+.autoSpace {
+    margin: auto;
+}
+
+.block {
+    display: block;
+}
+
+.inBlock {
+    display: inline-block;
+}
+
+.width60 {
+    width: 59%;
+}
+
+.width40 {
+    width: 39%;
+}
+
+.fit5 {
+    max-width: 19%;
+}
+
+.fit6 {
+    max-width: 16%;
+}
+
+.p30 {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.p100 {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.p200 {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.p300 {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+@media (min-width: 768px) {
+    .d-md-revert {
+        display: revert !important;
+    }
+}
+
+td:nth-child(3) {
+    min-width: 45%;
+}
+
+td:nth-child(4) {
+    display: block;
+}
+
+td:nth-child(4) > ul {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+td:nth-child(4) > ul > li {
+    display: inline flow-root list-item;
+    white-space: nowrap;
+}
+
+td:nth-child(4) > ul > li:nth-child(n-1) {
+    margin-left: 1.6rem;
+}
+
+td:nth-child(5) {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+tr {
+    float: left;
+}
+
+@media (min-width: 768px) {
+
+    td:nth-child(3) {
+        min-width: revert;
+    }
+
+    td:nth-child(4) {
+        display: revert;
+    }
+
+    td:nth-child(4) > ul {
+        padding-left: revert;
+        padding-right: revert;
+    }
+
+    td:nth-child(4) > ul > li {
+        display: revert;
+        white-space: revert;
+    }
+
+    td:nth-child(4) > ul > li:nth-child(n-1) {
+        margin-left: revert;
+    }
+
+    td:nth-child(5) {
+        display: revert;
+        margin-bottom: revert;
+    }
+
+    tr {
+        float: revert;
+    }
+}
