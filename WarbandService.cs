@@ -127,6 +127,45 @@ namespace SwordcraftBrisbane.Data
                 new Map { Search = RemoveBlockForColour(4), Property = string.Empty,
                     Condition = warband.Colours.Quarternary == null || string.IsNullOrEmpty(warband.Colours.Quarternary.Name) },
 
+                new Map { Search = SearchFor("MagicLikes"), Property = warband.Magic?.Likes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("MagicLikes"), Property = string.Empty,
+                    Condition = warband.Magic == null || string.IsNullOrEmpty(warband.Magic.Likes) },
+                new Map { Search = SearchFor("MagicAccepts"), Property = warband.Magic?.Accepts ?? "X" },
+                new Map { Search = RemoveBlockForTrait("MagicAccepts"), Property = string.Empty,
+                    Condition = warband.Magic == null || string.IsNullOrEmpty(warband.Magic.Accepts) },
+                new Map { Search = SearchFor("MagicDislikes"), Property = warband.Magic?.Dislikes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("MagicDislikes"), Property = string.Empty,
+                    Condition = warband.Magic == null || string.IsNullOrEmpty(warband.Magic.Dislikes) },
+                new Map { Search = SearchFor("MagicDetests"), Property = warband.Magic?.Detests ?? "X" },
+                new Map { Search = RemoveBlockForTrait("MagicDetests"), Property = string.Empty,
+                    Condition = warband.Magic == null || string.IsNullOrEmpty(warband.Magic.Detests) },
+
+                new Map { Search = SearchFor("RacesLikes"), Property = warband.Races?.Likes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("RacesLikes"), Property = string.Empty,
+                    Condition = warband.Races == null || string.IsNullOrEmpty(warband.Races.Likes) },
+                new Map { Search = SearchFor("RacesAccepts"), Property = warband.Races?.Accepts ?? "X" },
+                new Map { Search = RemoveBlockForTrait("RacesAccepts"), Property = string.Empty,
+                    Condition = warband.Races == null || string.IsNullOrEmpty(warband.Races.Accepts) },
+                new Map { Search = SearchFor("RacesDislikes"), Property = warband.Races?.Dislikes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("RacesDislikes"), Property = string.Empty,
+                    Condition = warband.Races == null || string.IsNullOrEmpty(warband.Races.Dislikes) },
+                new Map { Search = SearchFor("RacesDetests"), Property = warband.Races?.Detests ?? "X" },
+                new Map { Search = RemoveBlockForTrait("RacesDetests"), Property = string.Empty,
+                    Condition = warband.Races == null || string.IsNullOrEmpty(warband.Races.Detests) },
+
+                new Map { Search = SearchFor("FaithLikes"), Property = warband.Faith?.Likes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("FaithLikes"), Property = string.Empty,
+                    Condition = warband.Faith == null || string.IsNullOrEmpty(warband.Faith.Likes) },
+                new Map { Search = SearchFor("FaithAccepts"), Property = warband.Faith?.Accepts ?? "X" },
+                new Map { Search = RemoveBlockForTrait("FaithAccepts"), Property = string.Empty,
+                    Condition = warband.Faith == null || string.IsNullOrEmpty(warband.Faith.Accepts) },
+                new Map { Search = SearchFor("FaithDislikes"), Property = warband.Faith?.Dislikes ?? "X" },
+                new Map { Search = RemoveBlockForTrait("FaithDislikes"), Property = string.Empty,
+                    Condition = warband.Faith == null || string.IsNullOrEmpty(warband.Faith.Dislikes) },
+                new Map { Search = SearchFor("FaithDetests"), Property = warband.Faith?.Detests ?? "X" },
+                new Map { Search = RemoveBlockForTrait("FaithDetests"), Property = string.Empty,
+                    Condition = warband.Faith == null || string.IsNullOrEmpty(warband.Faith.Detests) },
+
                 new Map { Search = ReplaceFullRoleBlock,
                     Property = warband.Roles.Aggregate(new StringBuilder(), 
                         (sb, group) => sb.Append(group.ToHtml()), sb => sb.ToString()) },
@@ -163,7 +202,7 @@ namespace SwordcraftBrisbane.Data
         static readonly Regex ReplaceFullRoleBlock
             = new Regex(@"(?<=for=""Warband_Roles"">Roles</label>\r\n {24}<div class=""card-body"">)(?:[\r\n\s]+[^\n]+){12}");
         static readonly Regex ReplaceFullWeaponBlock
-            = new Regex(@"(?<=style=""display: flex"">)(?:[\r\n\s]+[^\n]+){18}");
+            = new Regex(@"(?<=id=""weaponBlock"">)(?:[\r\n\s]+[^\n]+){18}");
 
         private static Regex RemoveBlockForColour(int colourId)
         {
@@ -175,7 +214,7 @@ namespace SwordcraftBrisbane.Data
 
         private static Regex RemoveBlockForTrait(string searchFor)
         {
-            return new Regex($@"[\r\n\s]+<div[^\r\n]+>[\r\n\s]+[^\r\n]+[\r\n\s]+<label.+?for=""Warband_{searchFor}"">.+?</label>[\r\n\s]+</div>");
+            return new Regex($@"[\r\n\s]+<div[^\r\n]+>[\r\n\s]+[^\r\n]+[\r\n\s]+<label.+?for=""Warband_{searchFor}"">.*?</label>[\r\n\s]+</div>");
         }
 
         private static string TertiaryColourCalculation(Warband warband)

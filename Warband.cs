@@ -27,9 +27,20 @@ namespace SwordcraftBrisbane.Data
 
         public Trait Traits;
 
+        public List<Relation> Relationships;
+
         public List<Group> Roles;
 
         public Colour Colours;
+
+        [XmlIgnore]
+        public Relation? Magic => Relationships.SingleOrDefault(x => x.Name == "Magic");
+
+        [XmlIgnore]
+        public Relation? Races => Relationships.SingleOrDefault(x => x.Name == "Races");
+
+        [XmlIgnore]
+        public Relation? Faith => Relationships.SingleOrDefault(x => x.Name == "Faith");
 
         [XmlArray]
         [XmlArrayItem(ElementName = "Blank", Type = typeof(Blank))]
@@ -123,6 +134,17 @@ namespace SwordcraftBrisbane.Data
             public string Combat = "???";
             public string? Equip;
             public string? Noise;
+        }
+
+        public record Relation
+        {
+            [XmlAttribute]
+            public string Name;
+
+            public string? Likes = null;
+            public string? Accepts = null;
+            public string? Dislikes = null;
+            public string? Detests = null;
         }
 
         public record Group
