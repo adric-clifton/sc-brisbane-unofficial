@@ -39,6 +39,7 @@
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>
+			<Role>Archer</Role>
 			<Role>Arbalist</Role>
 			<Role>Healer</Role>
 		</Group>
@@ -50,10 +51,10 @@
 		<Quarternary/>
 	</Colours>
 	<Weapons>
-		<Sword/>
 		<Rapier/>
 		<Staff/>
 		<Longaxe/>
+		<Bow/>
 		<Crossbow/>
 		<Special Type="music"/>
 	</Weapons>

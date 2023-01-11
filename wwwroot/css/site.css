@@ -46,6 +46,10 @@ b {
     display: inline;
 }
 
+.control-label.inline::after {
+    content: ":";
+}
+
 .form-control.inline {
     display: inline;
     background-color: revert;
