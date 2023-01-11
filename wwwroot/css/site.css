@@ -19,6 +19,11 @@ body {
 
 .control-label, .card-header {
     font-weight: bold;
+    font-variant: small-caps;
+}
+
+b {
+    font-variant: small-caps;
 }
 
 .card {
