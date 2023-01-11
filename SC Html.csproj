@@ -51,38 +51,7 @@
     <None Remove="wwwroot\Images\weapons\x_stocks.png" />
     <None Remove="wwwroot\Images\weapons\_blank.png" />
     <None Remove="wwwroot\Images\weapons\_default.png" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
     <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
-    <None Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
     <None Remove="wwwroot\Warbands\RequiredForFolder.txt" />
     <None Remove="xml\01-jaegers.xml" />
     <None Remove="xml\02-del_mare.xml" />
@@ -229,100 +198,7 @@
     <Content Include="wwwroot\Images\weapons\_default.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="wwwroot\Warbands\RequiredForFolder.txt">
@@ -376,6 +252,102 @@
     <Content Include="xml\_template.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
