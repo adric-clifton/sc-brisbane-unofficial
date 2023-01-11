@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="9">
+	<Name>The Arsenal House of the Leaden Thorn</Name>
+	<ShortName>Nuln</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Gunnery school trip that got out of hand</Hook>
+	<Active>Default, approximately every week</Active>
+	<Size>XS</Size>
+	<Location>Nuln</Location>
+	<Description></Description>
+	<Style>14-15th Century Germanic arbalists and men-at-arms. Felt hats, tunics, soot stains, rifles, plate armour</Style>
+	<Accent>German</Accent>
+	<Traits>
+		<Values>???</Values>
+		<Feelings>Love of black powder</Feelings>
+		<Combat>Gun line behind shields</Combat>
+	</Traits>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+			<Role>Gunner</Role>
+			<Role>Healer</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#000000">Black</Primary>
+		<Secondary code="#4E6182">Navy</Secondary>
+		<Tertiary code="#7F031E">Burgundy</Tertiary>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Rifle/>
+		<Sword/>
+		<Shield Type="kite"/>
+		<Pike/>
+		<Pistol/>
+		<Blank/>
+	</Weapons>
+</Warband>

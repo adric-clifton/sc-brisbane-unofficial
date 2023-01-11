@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="11">
+	<Name>The Order of the Repentant Flame</Name>
+	<ShortName>Sigmarites</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Religious militants of various stripes</Hook>
+	<Active>Default, approximately every week</Active>
+	<Size>M</Size>
+	<Location>Ostland and other Empire lands</Location>
+	<Description></Description>
+	<Style>Witch hunters: big hats, leather coats, guns. Priests: robes, plate armour, warhammers. Zealots: rags, chains, death wish.</Style>
+	<Accent>German or none</Accent>
+	<Traits>
+		<Values>Purity and Protection</Values>
+		<Feelings>Hatred of Chaos, distrust of mages</Feelings>
+		<Combat>???</Combat>
+		<Noise>Loud warcries</Noise>
+	</Traits>
+	<Roles>
+		<Group Name="Flagellants">
+			<Role>Infantry (Light)</Role>
+		</Group>
+		<Group Name="Warrior Priests">
+			<Role>Infantry (Heavy)</Role>
+			<Role>Healer</Role>
+			<Role>Priest</Role>
+		</Group>
+		<Group Name="Witch Hunters">
+			<Role>Infantry (Light)</Role>
+			<Role>Gunner</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#B20C00">Scarlet</Primary>
+		<Secondary code="#FAFAF0">White</Secondary>
+		<Tertiary code="#6B3129">Brown</Tertiary>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Rapier/>
+		<Mace/>
+		<Special Type="stocks"/>
+		<Warhammer/>
+		<Crossbow/>
+		<Pistol/>
+	</Weapons>
+</Warband>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="5">
+	<Name>Blackwatch of Sigfreidhof</Name>
+	<ShortName>Blackwatch</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Army unit of mistrustful vampire hunters</Hook>
+	<Active>Usually only battlegrounds nights (last week of each month)</Active>
+	<Size>S</Size>
+	<Location>Sigfriedhof, in Stirland, an Empire province</Location>
+	<Description></Description>
+	<Style>16th Century Germanic landsknechts. Long skirts, lots of slashes, berets, leather/plate armour</Style>
+	<Accent>German or none</Accent>
+	<Traits>
+		<Values>Suspicious and implacable</Values>
+		<Feelings>Hatred of undead, dislikes mages</Feelings>
+		<Combat>Pike and shield wall</Combat>
+	</Traits>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#BD0304">Red</Primary>
+		<Secondary code="#FEBF00">Yellow</Secondary>
+		<Tertiary/>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Sword/>
+		<Mace/>
+		<Shield Type="kite"/>
+		<Halberd/>
+		<Pike/>
+		<Pistol/>
+	</Weapons>
+</Warband>

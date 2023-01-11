@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="8">
+	<Name>Fenhuang-Long Alliance</Name>
+	<ShortName>Cathay</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Mystic cultivators and warriors</Hook>
+	<Active>Default, approximately every week</Active>
+	<Size>XS</Size>
+	<Location>Cathay</Location>
+	<Description></Description>
+	<Style>Ming Dynasty Chinese military and religious styles. Flowing sleeves, prayer beads, ornate robes, lamellar/eastern armour</Style>
+	<Accent></Accent>
+	<Traits>
+		<Values>Honour and ???</Values>
+		<Feelings>Hatred of Chaos</Feelings>
+		<Combat>???</Combat>
+	</Traits>
+	<Roles>
+		<Group Name="Dragon Sect">
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+		</Group>
+		<Group Name="Phoenix Sect">
+			<Role>Healer</Role>
+			<Role>Priest</Role>
+			<Role>Mage</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#FAFAF0">White</Primary>
+		<Secondary code="#000000">Black</Secondary>
+		<Tertiary code="#6F0100">Imperial Red</Tertiary>
+		<Quarternary code="#FFCB00">Gold</Quarternary>
+	</Colours>
+	<Weapons>
+		<Sword/>
+		<Curved/>
+		<Shield Type="kite"/>
+		<Longaxe/>
+		<Staff/>
+		<Blank/>
+	</Weapons>
+</Warband>

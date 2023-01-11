@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="0">
+	<Name></Name>
+	<ShortName></ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook></Hook>
+	<Active></Active>
+	<Size></Size>
+	<Location></Location>
+	<Description></Description>
+	<Style></Style>
+	<Accent></Accent>
+	<Traits>
+		<Values></Values>
+		<Feelings></Feelings>
+		<Combat></Combat>
+		<Equip>Siege weapons</Equip>
+		<Noise>Loud warcries</Noise>
+	</Traits>
+	<Roles>
+		<Group Name="melee">
+			<Roles>
+				<Role>Infantry (Light)</Role>
+				<Role>Infantry (Heavy)</Role>
+			</Roles>
+		</Group>
+		<Group Name="ranged">
+			<Roles>
+				<Role>Archer</Role>
+				<Role>Arbalist</Role>
+				<Role>Gunner</Role>
+			</Roles>
+		</Group>
+		<Group Name="heals">
+			<Roles>
+				<Role>Healer</Role>
+				<Role>Priest</Role>
+				<Role>Mage</Role>
+			</Roles>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#000000"></Primary>
+		<Secondary code="#000000"></Secondary>
+		<Tertiary code="#000000"></Tertiary>
+		<Quarternary code="#000000"></Quarternary>
+	</Colours>
+	<Weapons>
+		<Blank/>
+		<Sword/>
+		<Rapier/>
+		<Curved/>
+		<Mace/>
+		<Axe/>
+		<Dagger/>
+		<Shield Type="round"/><!-- kite, teardrop, oval, -->
+		<Warhammer/>
+		<Greatsword/>
+		<Longaxe/>
+		<Halberd/>
+		<Pike/>
+		<Staff/>
+		<Bow/>
+		<Crossbow/>
+		<Pistol/>
+		<Rifle/>
+		<Special Type=""/><!-- stocks, choppa, music -->
+		<Spacer/>
+		<Crewed Type=""/><!-- cannon, trebuchet, volley -->
+	</Weapons>
+</Warband>

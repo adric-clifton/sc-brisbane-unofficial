@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="7">
+	<Name>Dancers of Darric</Name>
+	<ShortName>Dancers</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Various kinds of elvish tricksters</Hook>
+	<Active>Default, approximately every week</Active>
+	<Size>M</Size>
+	<Location>Fyr Darric, in Athel Loren</Location>
+	<Description></Description>
+	<Style>Leaf- and autumn-inspired elven aesthetic. Cloaks, skirts, tunics, layers, leather armour</Style>
+	<Accent>Scottish</Accent>
+	<Traits>
+		<Values>Observe and interfere</Values>
+		<Feelings>Hatred of Chaos</Feelings>
+		<Combat>Skirmish and harass</Combat>
+	</Traits>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Arbalist</Role>
+			<Role>Healer</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#BF3600">Orange</Primary>
+		<Secondary code="#F6A903">Yellow</Secondary>
+		<Tertiary code="#5B0101">Deep Red</Tertiary>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Sword/>
+		<Rapier/>
+		<Staff/>
+		<Longaxe/>
+		<Crossbow/>
+		<Special Type="music"/>
+	</Weapons>
+</Warband>

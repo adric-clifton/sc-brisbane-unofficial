@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="2">
+	<Name>Imperio Del Mare Societa Commerciale</Name>
+	<ShortName>Del Maré</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Legitimate merchants. Definitely not pirates</Hook>
+	<Active>First two weeks of the month</Active>
+	<Size>M</Size>
+	<Location>Various locations within Tilea</Location>
+	<Description></Description>
+	<Style>16-17th C Italian-influenced East India Trading Company. Puffy shirts, stripes, vests/coats, tricorns, light armour</Style>
+	<Accent>Italian</Accent>
+	<Traits>
+		<Values>Noisy and distracting</Values>
+		<Feelings>Love of money</Feelings>
+		<Combat>Skirmish and scouting</Combat>
+		<Equip>Siege weapons</Equip>
+	</Traits>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Gunner</Role>
+			<Role>Healer</Role>
+			<Role>Mage</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#5D318A">Purple</Primary>
+		<Secondary code="#000000">Black</Secondary>
+		<Tertiary code="#CCB055">Gold</Tertiary>
+		<Quarternary code="#2A3962">Navy</Quarternary>
+	</Colours>
+	<Weapons>
+		<Curved/>
+		<Rapier/>
+		<Shield Type="round"/>
+		<Staff/>
+		<Pistol/>
+		<Rifle/>
+	</Weapons>
+</Warband>

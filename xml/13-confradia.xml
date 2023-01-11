@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="13">
+	<Name>Confradia - Guild of Artisans and Merchants</Name>
+	<ShortName>Confradia</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Merchant company with sellsword protectors</Hook>
+	<Active>Default, approximately every week</Active>
+	<Size>XS</Size>
+	<Location>The Empire</Location>
+	<Description></Description>
+	<Style>16th Century Germanic landsknechts. Slashed fabric, puffy sleeves, berets, plate armour</Style>
+	<Accent></Accent>
+	<Traits>
+		<Values>???</Values>
+		<Feelings>Love of money</Feelings>
+		<Combat>???</Combat>
+	</Traits>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Healer</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#30619C">Blue</Primary>
+		<Secondary code="#AB3D2E">Brick Red</Secondary>
+		<Tertiary code="#F9E35C">Yellow</Tertiary>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Sword/>
+		<Greatsword/>
+		<Pistol/>
+		<Blank/>
+		<Blank/>
+		<Blank/>
+	</Weapons>
+</Warband>
