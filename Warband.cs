@@ -1,4 +1,4 @@
-using System.Text;
+﻿using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
 
@@ -71,9 +71,9 @@ namespace SwordcraftBrisbane.Data
                     using (new TableDiv(result))
                     {
                         result.AppendLine($"<div><b>{Name}</b></div>");
-                        result.AppendLine($"<a href='./Warbands/{Id:D2}.html'>");
                         result.AppendLine($"<div>({ShortName})</div>");
-                        result.AppendLine("</a>");
+                        result.AppendLine($"<div>&nbsp;</div>");
+                        result.AppendLine($"<a href='./Warbands/{Id:D2}.html'>➤ More</a>");
                     }
 
                     using (new TableDiv(result))
