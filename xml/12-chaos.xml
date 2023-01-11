@@ -18,6 +18,26 @@
 		<Noise>Loud warcries</Noise>
 		<Equip>Nurglings</Equip>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts>Chaos, Dhar (dark), Necromancy</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts>All can fall</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Khorne, Nurgle, Tzeentch, Slaanesh</Likes>
+			<Accepts></Accepts>
+			<Dislikes>Other faiths</Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

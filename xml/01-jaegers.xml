@@ -16,6 +16,26 @@
 		<Feelings>Hatred of Chaos</Feelings>
 		<Combat>Arrows for days</Combat>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts>Ghyr (green), Qhaysh (silver)</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts>Humans</Accepts>
+			<Dislikes>Dwarves</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes></Likes>
+			<Accepts>Elven faiths</Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Chaos</Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

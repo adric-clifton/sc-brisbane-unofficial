@@ -17,6 +17,26 @@
 		<Combat>???</Combat>
 		<Noise>Loud warcries</Noise>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes>Warrior priests</Likes>
+			<Accepts></Accepts>
+			<Dislikes>Most wizards</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Sigmar</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Chaos</Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group Name="Flagellants">
 			<Role>Infantry (Light)</Role>

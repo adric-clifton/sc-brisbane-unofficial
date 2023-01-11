@@ -13,10 +13,30 @@
 	<Accent>Russian</Accent>
 	<Traits>
 		<Values>Sneaky and adaptable</Values>
-		<Feelings>Hatred of Chaos, dislikes mages</Feelings>
+		<Feelings>Hatred of Chaos</Feelings>
 		<Combat>Shield wall and skirmish</Combat>
 		<Noise>Loud warcries</Noise>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes>Priestesses, Ice witches</Likes>
+			<Accepts></Accepts>
+			<Dislikes>Most wizards</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes>Norscans</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Dazh</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Chaos</Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group Name="Swarm">
 			<Role>Infantry (Light)</Role>

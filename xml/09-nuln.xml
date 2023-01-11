@@ -16,6 +16,26 @@
 		<Feelings>Love of black powder</Feelings>
 		<Combat>Gun line behind shields</Combat>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts>Ogres</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

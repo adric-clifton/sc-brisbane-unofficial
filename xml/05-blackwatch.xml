@@ -13,9 +13,29 @@
 	<Accent>German or none</Accent>
 	<Traits>
 		<Values>Suspicious and implacable</Values>
-		<Feelings>Hatred of undead, dislikes mages</Feelings>
+		<Feelings>Hatred of undead</Feelings>
 		<Combat>Pike and shield wall</Combat>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts>1x Shyish (purple)</Accepts>
+			<Dislikes>Most wizards</Dislikes>
+			<Detests>Necromancy</Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Undead</Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Morr</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

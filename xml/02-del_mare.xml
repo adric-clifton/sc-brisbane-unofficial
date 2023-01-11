@@ -17,6 +17,26 @@
 		<Combat>Skirmish and scouting</Combat>
 		<Equip>Siege weapons</Equip>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes>Azyr (blue)</Likes>
+			<Accepts>All winds</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes>Estalians (rivals)</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Manaan</Likes>
+			<Accepts>Most others</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

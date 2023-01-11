@@ -18,6 +18,26 @@
 		<Equip>Siege weapons</Equip>
 		<Noise>Loud warcries</Noise>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group Name="melee">
 			<Roles>

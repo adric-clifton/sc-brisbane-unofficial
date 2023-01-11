@@ -17,6 +17,26 @@
 		<Combat>Heavy skirmishers</Combat>
 		<Noise>Loud warcries</Noise>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes>Waaagh (Greenskin)</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts>Humans (feral)</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Gork and Mork</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>

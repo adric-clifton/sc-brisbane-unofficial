@@ -16,6 +16,26 @@
 		<Feelings>Hatred of Chaos</Feelings>
 		<Combat>???</Combat>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts>All winds?</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Chaos</Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group Name="Dragon Sect">
 			<Role>Infantry (Light)</Role>

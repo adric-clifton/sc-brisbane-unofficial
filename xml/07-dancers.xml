@@ -16,6 +16,26 @@
 		<Feelings>Hatred of Chaos</Feelings>
 		<Combat>Skirmish and harass</Combat>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts>Fey (wood elf), Qhaysh (silver)</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Loec (Elven trickster god)</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests>Chaos</Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>
@@ -25,8 +45,8 @@
 	</Roles>
 	<Colours>
 		<Primary code="#BF3600">Orange</Primary>
-		<Secondary code="#F6A903">Yellow</Secondary>
-		<Tertiary code="#5B0101">Deep Red</Tertiary>
+		<Secondary code="#5B0101">Deep Red</Secondary>
+		<Tertiary code="#F6A903">Yellow</Tertiary>
 		<Quarternary/>
 	</Colours>
 	<Weapons>

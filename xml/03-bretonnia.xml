@@ -17,6 +17,26 @@
 		<Combat>Straightforward combat</Combat>
 		<Equip>Siege weapon</Equip>
 	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes>Grail Maidens</Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes>Greenskins</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes>Lady of the Lake</Likes>
+			<Accepts>Shallya</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
 	<Roles>
 		<Group Name="Peasants">
 			<Role>Infantry (Light)</Role>
