@@ -63,7 +63,7 @@ namespace SwordcraftBrisbane.Data
                 using (new TableRow(result))
                 {
                     using (new TableDiv(result))
-                    using (new Div(result, "class='autoSpace p100'"))
+                    using (new Div(result, "class='autoSpace p100 d-flex'"))
                     {
                         result.AppendLine($"<img class='autoSpace p100' src='./Images/{Id:D2}.jpg'>");
                     }
