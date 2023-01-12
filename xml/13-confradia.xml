@@ -4,56 +4,59 @@
 	<ShortName>Confradia</ShortName>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Merchant company with sellsword protectors</Hook>
+	<Hook>Artisan guild with sellsword protectors</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>XS</Size>
+	<Size>S-M</Size>
 	<Location>The Empire</Location>
 	<Description></Description>
-	<Style>16th Century Germanic landsknechts. Slashed fabric, puffy sleeves, berets, plate armour</Style>
-	<Accent></Accent>
+	<Style>16th Century Germanic landsknechts and noble citizens. Slashed fabric, puffy sleeves, berets, plate armour, jewellery</Style>
+	<Accent>German</Accent>
 	<Traits>
-		<Values>Wheeling and/or dealing</Values>
-		<Feelings>Love of money</Feelings>
-		<Combat>???</Combat>
+		<Values>"Honour the Deal"</Values>
+		<Feelings>Love of contracts</Feelings>
+		<Combat>Rank and file fighters</Combat>
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
 			<Likes></Likes>
-			<Accepts></Accepts>
+			<Accepts>Sanctioned magic</Accepts>
 			<Dislikes></Dislikes>
-			<Detests></Detests>
+			<Detests>Chaos magic</Detests>
 		</Relation>
 		<Relation Name="Races">
 			<Likes></Likes>
-			<Accepts></Accepts>
-			<Dislikes></Dislikes>
+			<Accepts>Non-Norscan Humans</Accepts>
+			<Dislikes>Greenskins</Dislikes>
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
 			<Likes></Likes>
-			<Accepts></Accepts>
+			<Accepts>Sigmar, Myrmidia, other human gods</Accepts>
 			<Dislikes></Dislikes>
-			<Detests></Detests>
+			<Detests>Chaos</Detests>
 		</Relation>
 	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
 			<Role>Healer</Role>
+			<Role>Archer</Role>
+			<Role>Gunner</Role>
 		</Group>
 	</Roles>
 	<Colours>
-		<Primary code="#30619C">Blue</Primary>
-		<Secondary code="#AB3D2E">Brick Red</Secondary>
+		<Primary code="#30619C">Navy Blue</Primary>
+		<Secondary code="#AB3D2E">Wine Red</Secondary>
 		<Tertiary code="#F9E35C">Yellow</Tertiary>
 		<Quarternary/>
 	</Colours>
 	<Weapons>
 		<Sword/>
 		<Greatsword/>
+		<Shield Type="kite"/>
+		<Pike/>
+		<Bow/>
 		<Pistol/>
-		<Blank/>
-		<Blank/>
-		<Blank/>
 	</Weapons>
 </Warband>

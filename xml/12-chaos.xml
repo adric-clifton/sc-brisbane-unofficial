@@ -7,14 +7,14 @@
 	<Hook>Chaos worshippers of all four spicy flavours</Hook>
 	<Active>Default, approximately every week</Active>
 	<Size>M</Size>
-	<Location>Various locations within the Border Princes</Location>
+	<Location>Called from across the known world</Location>
 	<Description></Description>
 	<Style>Brown robes. Other styles of dress, armour and weaponry varies widely. May have visible mutations</Style>
 	<Accent>Varying or none</Accent>
 	<Traits>
-		<Values>???</Values>
-		<Feelings>???</Feelings>
-		<Combat>Constantly fighting</Combat>
+		<Values>Chaos undivided</Values>
+		<Feelings>Love the Dark Gods</Feelings>
+		<Combat>Constant mayhem</Combat>
 		<Noise>Loud warcries</Noise>
 		<Equip>Nurglings</Equip>
 	</Traits>
@@ -26,8 +26,8 @@
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Races">
-			<Likes></Likes>
-			<Accepts>All can fall</Accepts>
+			<Likes>All shall fall</Likes>
+			<Accepts>Norscan, Skaven, Beastmen</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
