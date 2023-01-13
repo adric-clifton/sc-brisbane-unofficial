@@ -19,8 +19,8 @@
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
-			<Likes>Waaagh (Greenskin)</Likes>
-			<Accepts></Accepts>
+			<Likes>Troll hag</Likes>
+			<Accepts>Waaagh (Greenskin)</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
