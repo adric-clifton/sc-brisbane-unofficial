@@ -47,8 +47,8 @@
 		</Group>
 	</Roles>
 	<Colours>
-		<Primary code="#30619C">Navy Blue</Primary>
-		<Secondary code="#AB3D2E">Wine Red</Secondary>
+		<Primary code="#364777">Navy Blue</Primary>
+		<Secondary code="#962733">Wine Red</Secondary>
 		<Tertiary code="#F9E35C">Yellow</Tertiary>
 		<Quarternary/>
 	</Colours>
