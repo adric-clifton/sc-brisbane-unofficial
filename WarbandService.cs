@@ -89,6 +89,12 @@ namespace SwordcraftBrisbane.Data
             {
                 new Map { Search = SearchFor("Name"), Property = warband.Name },
                 new Map { Search = SearchFor("ShortName"), Property = warband.ShortName },
+                new Map { Search = SearchFor("Pronunciation"), Property = $"<i>{warband.Pronunciation ?? ""}</i>" },
+                new Map { Search = RemoveBlockForTrait("Pronunciation"), Property = string.Empty,
+                    Condition = string.IsNullOrEmpty(warband.Pronunciation) },
+                new Map { Search = SearchFor("Leader"), Property = warband.Leader },
+                new Map { Search = RemoveBlockForTrait("Leader"), Property = string.Empty,
+                    Condition = !warband.ShowLeader },
                 new Map { Search = SearchFor("Hook"), Property = warband.Hook },
                 new Map { Search = SearchFor("ActivePeriod"), Property = warband.Active ?? "Default, approximately every week" },
                 new Map { Search = SearchFor("ApproxSize"), Property = warband.Size },

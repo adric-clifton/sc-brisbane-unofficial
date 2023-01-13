@@ -2,6 +2,7 @@
 <Warband Id="2">
 	<Name>Imperio Del Mare Societa Commerciale</Name>
 	<ShortName>Del Maré</ShortName>
+	<Pronunciation>del MAA-rae</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Legitimate merchants. Definitely not pirates</Hook>

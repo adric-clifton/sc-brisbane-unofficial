@@ -2,6 +2,7 @@
 <Warband Id="11">
 	<Name>The Order of the Repentant Flame</Name>
 	<ShortName>Sigmarites</ShortName>
+	<Pronunciation>for sig-MAAAAAAR</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Religious militants of various stripes</Hook>

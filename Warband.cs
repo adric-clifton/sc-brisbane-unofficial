@@ -12,6 +12,7 @@ namespace SwordcraftBrisbane.Data
 
         public string Name = "XXXXXX";
         public string ShortName = "XXXXXX";
+        public string? Pronunciation;
 
         public string Leader;
         public bool ShowLeader = false;

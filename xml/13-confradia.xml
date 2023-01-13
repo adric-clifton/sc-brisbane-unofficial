@@ -2,6 +2,7 @@
 <Warband Id="13">
 	<Name>Confradia - Guild of Artisans and Merchants</Name>
 	<ShortName>Confradia</ShortName>
+	<Pronunciation>con-fra-DEE-ah</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Artisan guild with sellsword protectors</Hook>
