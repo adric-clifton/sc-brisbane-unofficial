@@ -48,11 +48,14 @@ namespace SwordcraftBrisbane.Data
                 if (band != null)
                 {
                     allWarbands.Add(band);
+                    Console.Write("Processing {0}... ", band.ShortName);
                     var template = ProcessTemplate(originalTemplate, band);
                     OutputFile(template, $"{band.Id:D2}.html");
+                    Console.WriteLine("done.");
                 }
             }
 
+            Console.Write("\nProcessing main page... ");
             indexTemplate = ClearTable.Replace(indexTemplate,
                 allWarbands.Aggregate(new StringBuilder(),
                 (sb, warband) =>
@@ -60,6 +63,10 @@ namespace SwordcraftBrisbane.Data
                 sb => sb.ToString()));
 
             OutputFile(indexTemplate, "index.html", false);
+            Console.WriteLine("done.");
+
+            Console.WriteLine("\nExiting...");
+            Thread.Sleep(500);
         }
 
         private static void OutputFile(string contents, string filename, bool useSubDirectory = true)
