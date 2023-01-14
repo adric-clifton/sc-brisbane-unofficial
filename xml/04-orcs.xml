@@ -25,7 +25,7 @@
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Races">
-			<Likes></Likes>
+			<Likes>Orcs, goblins, trolls</Likes>
 			<Accepts>Humans (feral)</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>

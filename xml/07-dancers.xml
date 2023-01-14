@@ -24,7 +24,7 @@
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Races">
-			<Likes></Likes>
+			<Likes>Wood elves</Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
