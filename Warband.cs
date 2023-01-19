@@ -75,7 +75,7 @@ namespace SwordcraftBrisbane.Data
                 using (new TableRow(result))
                 {
                     using (new TableDiv(result))
-                    using (new Div(result, "class='autoSpace p100 d-flex'"))
+                    using (new Div(result, "class='autoSpace p100 backdrop d-flex'"))
                     {
                         result.AppendLine($"<img class='autoSpace p100' src='./Images/{Id:D2}.jpg'>");
                     }
@@ -115,7 +115,7 @@ namespace SwordcraftBrisbane.Data
                         foreach (var weapon in Weapons)
                         {
                             result.Append("<span class='autoSpace'>");
-                            result.Append($"<img class='inBlock fit6' src='./Images/weapons/{weapon.ImageName}.png'>");
+                            result.Append($"<img class='inBlock fit6 weapon' src='./Images/weapons/{weapon.ImageName}.png'>");
                             result.Append("</span>");
                         }
                     }
