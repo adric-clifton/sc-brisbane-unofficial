@@ -4,33 +4,34 @@
 	<ShortName>Cathay</ShortName>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Mystic cultivators and warriors</Hook>
+	<Hook>Mystic cultivators, theurgists, and warriors</Hook>
 	<Active>Default, approximately every week</Active>
 	<Size>XS</Size>
-	<Location>Cathay</Location>
+	<Location>Cathay and neighbouring lands</Location>
 	<Description></Description>
 	<Style>Ming Dynasty Chinese military and religious styles. Flowing sleeves, prayer beads, ornate robes, lamellar/eastern armour</Style>
-	<Accent></Accent>
+	<Accent>Chinese (no racism please), otherwise upper class/posh</Accent>
 	<Traits>
-		<Values>Honour and ???</Values>
+		<Values>Strategy and Tactics</Values>
 		<Feelings>Hatred of Chaos</Feelings>
-		<Combat>???</Combat>
+		<Combat>Hit and run</Combat>
+		<Equip>Bing Chilling</Equip>
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
 			<Likes></Likes>
-			<Accepts>All winds?</Accepts>
+			<Accepts>All winds</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Races">
-			<Likes></Likes>
-			<Accepts></Accepts>
+			<Likes>Cathay and neighbouring lands</Likes>
+			<Accepts>Other humans (mercenaries)</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
-			<Likes></Likes>
+			<Likes>Dragon Emperor</Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests>Chaos</Detests>
@@ -59,6 +60,6 @@
 		<Shield Type="kite"/>
 		<Longaxe/>
 		<Staff/>
-		<Blank/>
+		<Bow/>
 	</Weapons>
 </Warband>
