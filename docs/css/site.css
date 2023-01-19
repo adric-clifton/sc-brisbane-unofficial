@@ -116,6 +116,61 @@ b {
     max-width: 300px;
 }
 
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    --bs-table-accent-bg: #ecedee;
+}
+
+a {
+    color: #07c;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bs-body-color: #ddd;
+        --bs-body-bg: #111;
+    }
+
+    a {
+        color: #39f;
+    }
+
+    .table {
+        color: #ddd;
+    }
+
+    .table-striped > tbody > tr:nth-of-type(2n+1) {
+        --bs-table-accent-bg: #222;
+        color: #ddd;
+    }
+
+    .weapon {
+        filter: invert(1);
+    }
+
+    .card {
+        background-color: #222;
+        border-color: #ced4da;
+    }
+
+    .card-header {
+        background-color: #181818;
+    }
+
+    .form-control {
+        color: #fff;
+        background-color: #212529;
+    }
+
+    .backdrop {
+        border-radius: 6px;
+        background-color: rgba(220,220,220,0.5);
+    }
+
+    .swatch {
+        border-color: white;
+    }
+}
+
 @media (min-width: 768px) {
     .d-md-revert {
         display: revert !important;
