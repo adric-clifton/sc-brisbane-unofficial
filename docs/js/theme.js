@@ -4,7 +4,6 @@ const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 
 // get theme preference from local storage
 const currentTheme = localStorage.getItem("theme");
-var d = document;
 if (currentTheme == "dark") {
     document.firstChild.classList.toggle("dark-mode");
 } else if (currentTheme == "light") {
@@ -13,7 +12,6 @@ if (currentTheme == "dark") {
 
 // listen for clicks
 btn.addEventListener("click", function () {
-    var doc = document;
     if (prefersDarkScheme.matches) {
         document.firstChild.classList.toggle("light-mode");
         var theme = document.firstChild.classList.contains("light-mode") ? "light" : "dark";

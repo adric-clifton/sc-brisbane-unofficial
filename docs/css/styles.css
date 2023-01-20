@@ -90,8 +90,8 @@ a {
     }
 
     :root.light-mode {
-        --bs-body-color: revert;
-        --bs-body-bg: revert;
+        --bs-body-color: #212529;
+        --bs-body-bg: #fff;
         --link-color: #07c;
     }
 
