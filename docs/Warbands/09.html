@@ -19,208 +19,210 @@
                 user-select: none;
             }
 </style></head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="../index.html">Swordcraft Brisbane (Unofficial)</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="../index.html">Warbands</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="../HouseRules.html">Modified Rules</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-
-            <h1>Details</h1>
-            <hr />
-
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-header">Basic Info</div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <label class="control-label">Name</label>
-                                <label class="form-control" for="Warband_Name">The Arsenal House of the Leaden Thorn</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Nickname</label>
-                                <label class="form-control" for="Warband_ShortName">Nuln</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">One-line hook</label>
-                                <label class="form-control" for="Warband_Hook">Gunnery school trip that got out of hand</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Active Period</label>
-                                <label class="form-control" for="Warband_ActivePeriod">Default, approximately every week</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Approximate Size</label>
-                                <span class="text-info">(M averages 5-10)</span>
-                                <label class="form-control" for="Warband_ApproxSize">XS</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">Details</div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <label class="control-label">Where do they hail from?</label>
-                                <label class="form-control" for="Warband_Location">Nuln</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Long description</label>
-                                <label class="form-control" for="Warband_Description"><i>-- No data --</i></label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">What values do they embody?</label>
-                                <label class="form-control" for="Warband_Values">Strategy and tactics</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">What do they love/hate?</label>
-                                <label class="form-control" for="Warband_Feelings">Love of black powder</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">How do they fight?</label>
-                                <label class="form-control" for="Warband_Combat">Gun line behind shields</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="card">
-                        <div class="card-header">Style</div>
-                        <div class="card-body">
-                            <div class="form-group">
-                                <label class="control-label">Costuming style</label>
-                                <label class="form-control" for="Warband_Style">14-15th Century Germanic arbalists and men-at-arms. Felt hats, tunics, soot stains, rifles, plate armour</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label">Accent</label>
-                                <label class="form-control" for="Warband_Accent">German</label>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label" for="Warband_Logo">Logo</label>
-                                <div id="logo" style="height: 300px; margin: 5px;">
-                                    <img class="autoSpace block p300" src="../Images/09.jpg" />
+                <body>
+                    <header>
+                        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                            <div class="container">
+                                <a class="navbar-brand" href="../index.html">Swordcraft Brisbane (Unofficial)</a>
+                                <button class="btn btn-sm btn-outline-dark btn-toggle" type="button">💡</button>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                                    <ul class="navbar-nav flex-grow-1">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="../index.html">Warbands</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="../HouseRules.html">Modified Rules</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="card">
-                                <label class="card-header">Colours</label>
-                                <div class="card-body">
-                                    <div class="form-group">
-                                        <label class="control-label">Primary</label>
-                                        <label class="form-control" for="Warband_FirstColourCode">Black (#000000)</label>
-                                        <div id="colour1" class="swatch" style="background-color: #000000">&nbsp;</div>
+                        </nav>
+                    </header>
+                    <div class="container">
+                        <main role="main" class="pb-3">
+
+                            <h1>Details</h1>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="card">
+                                        <div class="card-header">Basic Info</div>
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="control-label">Name</label>
+                                                <label class="form-control" for="Warband_Name">The Arsenal House of the Leaden Thorn</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Nickname</label>
+                                                <label class="form-control" for="Warband_ShortName">Nuln</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">One-line hook</label>
+                                                <label class="form-control" for="Warband_Hook">Gunnery school trip that got out of hand</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Active Period</label>
+                                                <label class="form-control" for="Warband_ActivePeriod">Default, approximately every week</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Approximate Size</label>
+                                                <span class="text-info">(M averages 5-10)</span>
+                                                <label class="form-control" for="Warband_ApproxSize">XS</label>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="control-label">Secondary</label>
-                                        <label class="form-control" for="Warband_SecondColourCode">Navy (#4E6182)</label>
-                                        <div id="colour2" class="swatch" style="background-color: #4E6182">&nbsp;</div>
+                                    <div class="card">
+                                        <div class="card-header">Details</div>
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="control-label">Where do they hail from?</label>
+                                                <label class="form-control" for="Warband_Location">Nuln</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Long description</label>
+                                                <label class="form-control" for="Warband_Description"><i>-- No data --</i></label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">What values do they embody?</label>
+                                                <label class="form-control" for="Warband_Values">Strategy and tactics</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">What do they love/hate?</label>
+                                                <label class="form-control" for="Warband_Feelings">Love of black powder</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">How do they fight?</label>
+                                                <label class="form-control" for="Warband_Combat">Gun line behind shields</label>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="tertiary" class="form-group">
-                                        <label class="control-label">Tertiary</label>
-                                        <label class="form-control" for="Warband_ThirdColourCode">Burgundy (#7F031E)</label>
-                                        <div id="colour3" class="swatch" style="background-color: #7F031E">&nbsp;</div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="card">
+                                        <div class="card-header">Style</div>
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="control-label">Costuming style</label>
+                                                <label class="form-control" for="Warband_Style">14-15th Century Germanic arbalists and men-at-arms. Felt hats, tunics, soot stains, rifles, plate armour</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Accent</label>
+                                                <label class="form-control" for="Warband_Accent">German</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label" for="Warband_Logo">Logo</label>
+                                                <div id="logo" style="height: 300px; margin: 5px;">
+                                                    <img class="autoSpace block p300" src="../Images/09.jpg" />
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <label class="card-header">Colours</label>
+                                                <div class="card-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label">Primary</label>
+                                                        <label class="form-control" for="Warband_FirstColourCode">Black (#000000)</label>
+                                                        <div id="colour1" class="swatch" style="background-color: #000000">&nbsp;</div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label">Secondary</label>
+                                                        <label class="form-control" for="Warband_SecondColourCode">Navy (#4E6182)</label>
+                                                        <div id="colour2" class="swatch" style="background-color: #4E6182">&nbsp;</div>
+                                                    </div>
+                                                    <div id="tertiary" class="form-group">
+                                                        <label class="control-label">Tertiary</label>
+                                                        <label class="form-control" for="Warband_ThirdColourCode">Burgundy (#7F031E)</label>
+                                                        <div id="colour3" class="swatch" style="background-color: #7F031E">&nbsp;</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="card">
-                        <label class="card-header" for="Warband_Roles">Roles</label>
-                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="card">
+                                        <label class="card-header" for="Warband_Roles">Roles</label>
+                                        <div class="card-body">
 <div class='card'><div class='card-header'><label class='control-label'><i>(Main Group)</i></label></div><div class='card-body'><div class='card-text'><label>Infantry (Light)</label></div>
 <div class='card-text'><label>Infantry (Heavy)</label></div>
 <div class='card-text'><label>Gunner</label></div>
 <div class='card-text'><label>Healer</label></div>
 </div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div>&nbsp;</div>
-                    <div class="card">
-                        <label class="card-header" for="Warband_Weapons">Commonly Used Weapons</label>
-                        <div class="form-group card-body">
-                            <div class="card-text weapon" style="display: flex" id="weaponBlock">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div>&nbsp;</div>
+                                    <div class="card">
+                                        <label class="card-header" for="Warband_Weapons">Commonly Used Weapons</label>
+                                        <div class="form-group card-body">
+                                            <div class="card-text weapon" style="display: flex" id="weaponBlock">
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Rifle' src='../Images/weapons/r_rifle.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Sword' src='../Images/weapons/m_sword.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Shield (kite)' src='../Images/weapons/s_kite.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Pike' src='../Images/weapons/m_pike.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Pistol' src='../Images/weapons/r_pistol.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Blank' src='../Images/weapons/a_blank.png'/></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <label class="card-header" for="Warband_Relationships">Relations
-                    - Anything not listed is likely Neutral</label>
-                    <div class="row card-body">
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card">
-                                <label class="card-header">Magic</label>
-                                <div class="card-body">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card">
-                                <label class="card-header">Races</label>
-                                <div class="card-body">
-                                    <div class="form-group">
-                                        <label class="control-label inline alert-primary">Accepts</label>
-                                        <label class="form-control inline" for="Warband_RacesAccepts">Ogres</label>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card">
-                                <label class="card-header">Faiths</label>
-                                <div class="card-body">
+                            <div>
+                                <div class="card">
+                                    <label class="card-header" for="Warband_Relationships">Relations
+                                        - Anything not listed is likely Neutral</label>
+                                    <div class="row card-body">
+                                        <div class="col-md-4 col-sm-12">
+                                            <div class="card">
+                                                <label class="card-header">Magic</label>
+                                                <div class="card-body">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <div class="card">
+                                                <label class="card-header">Races</label>
+                                                <div class="card-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label inline alert-primary">Accepts</label>
+                                                        <label class="form-control inline" for="Warband_RacesAccepts">Ogres</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <div class="card">
+                                                <label class="card-header">Faiths</label>
+                                                <div class="card-body">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                            <div>
+                                <a href="../index.html">Back to List</a>
+                            </div>
+
+
+                        </main>
                     </div>
-                </div>
-            </div>
-            <div>
-                <a href="../index.html">Back to List</a>
-            </div>
 
+                    <footer class="border-top footer text-muted">
+                        <div class="container">
+                            For changes, @ me on Discord or
+                            <a href="https://github.com/adric-clifton/sc-brisbane-unofficial/issues/new">comment on GitHub</a>
+                        </div>
+                    </footer>
 
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            For changes, @ me on Discord or
-            <a href="https://github.com/adric-clifton/sc-brisbane-unofficial/issues/new">comment on GitHub</a>
-        </div>
-    </footer>
-
-    <script src="../lib/jquery/dist/jquery.min.js"></script>
-    <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+                    <script src="../lib/jquery/dist/jquery.min.js"></script>
+                    <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                    <script src="../js/theme.js"></script>
+                </body>
 </html>

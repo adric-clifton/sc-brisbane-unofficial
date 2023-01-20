@@ -1,42 +1,129 @@
-
-a.navbar-brand{
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+:root {
+    --link-color: #07c;
 }
 
-.btn-primary{
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+a {
+    color: var(--link-color);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.table {
+    color: var(--bs-table-striped-color);
+    --bs-table-striped-bg: #ecedee;
 }
 
-.border-top{
-  border-top: 1px solid #e5e5e5;
+:root.dark-mode {
+    --bs-body-color: #ddd;
+    --bs-body-bg: #111;
+    --link-color: #39f;
 }
-.border-bottom{
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow{
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy{
-  font-size: 1rem;
-  line-height: inherit;
+    
+:root.dark-mode .table {
+    --bs-table-striped-bg: #222;
+    --bs-table-striped-color: #ddd;
 }
 
-.footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+:root.dark-mode .weapon {
+    filter: invert(1);
+}
+
+:root.dark-mode .card {
+    background-color: #222;
+    border-color: #ced4da;
+}
+
+:root.dark-mode .card-header {
+    background-color: #181818;
+}
+
+:root.dark-mode .form-control {
+    color: #fff;
+    background-color: #212529;
+}
+
+:root.dark-mode .backdrop {
+    border-radius: 6px;
+    background-color: rgba(220,220,220,0.5);
+}
+
+:root.dark-mode .swatch {
+    border-color: #fff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bs-body-color: #ddd;
+        --bs-body-bg: #111;
+        --link-color: #39f;
+    }
+
+    .table {
+        --bs-table-striped-bg: #222;
+        --bs-table-striped-color: #ddd;
+    }
+
+    .weapon {
+        filter: invert(1);
+    }
+
+    .card {
+        background-color: #222;
+        border-color: #ced4da;
+    }
+
+    .card-header {
+        background-color: #181818;
+    }
+
+    .form-control {
+        color: #fff;
+        background-color: #212529;
+    }
+
+    .backdrop {
+        border-radius: 6px;
+        background-color: rgba(220,220,220,0.5);
+    }
+
+    .swatch {
+        border-color: #fff;
+    }
+
+    :root.light-mode {
+        --bs-body-color: revert;
+        --bs-body-bg: revert;
+        --link-color: #07c;
+    }
+
+        :root.light-mode .table {
+            --bs-table-striped-bg: #ecedee;
+            --bs-table-striped-color: revert;
+        }
+
+        :root.light-mode .weapon {
+            filter: revert;
+        }
+
+        :root.light-mode .card {
+            background-color: revert;
+            border-color: revert;
+        }
+
+        :root.light-mode .card-header {
+            background-color: revert;
+        }
+
+        :root.light-mode .form-control {
+            color: revert;
+            background-color: revert;
+        }
+
+        :root.light-mode .backdrop {
+            border-radius: revert;
+            background-color: revert;
+        }
+
+        :root.light-mode .swatch {
+            border-color: revert;
+        }
 }
