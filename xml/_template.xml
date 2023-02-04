@@ -1,58 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="0">
-	<Name></Name>
-	<ShortName></ShortName>
-	<Leader></Leader>
-	<ShowLeader>false</ShowLeader>
+	<Name></Name> <!-- Official Name e.g. The Arsenal House of the Leaden Thorn -->
+	<ShortName></ShortName> <!-- Nickname e.g. Nuln -->
+	<Leader></Leader> <!-- Name of leader or 2ic -->
+	<ShowLeader>false</ShowLeader> <!-- Show the above on the page? -->
+	
+	<!-- One-line hook to describe the warband and draw interest -->
 	<Hook></Hook>
-	<Active></Active>
-	<Size></Size>
+	
+	<!-- How often the warband runs -->
+	<Active>Default, approximately every week</Active>
+	
+	<!-- M averages 5-10 members -->
+	<Size>M</Size>
+	
+	<!-- Warhammer point of origin (Town, Province, Country, whatever) -->
 	<Location></Location>
+	
+	<!-- Leave blank -->
 	<Description></Description>
+	
+	<!-- Real-world analogue/inspiration (including time period), list of notable accents and common armour. -->
 	<Style></Style>
+	
+	<!-- Real-world accent, generally understood to be exaggerated. "None" is fine too. -->
 	<Accent></Accent>
+	
 	<Traits>
-		<Values></Values>
-		<Feelings></Feelings>
-		<Combat></Combat>
+		<!-- What values do they embody? Three words, usually "A and B" or similar. Examples: Observe and interfere, Mercenaries for hire, Defenders of nature -->
+		<Values>???</Values>
+		
+		<!-- What do they most love/hate? Format is "Love of X" or "Hatred of Y". Examples: Hatred of Chaos, Love of money, Love of black powder -->
+		<Feelings>???</Feelings>
+		
+		<!-- How do they fight? 2-4 words, tactics or general approach. Examples: Arrows for days, Heavy skirmishers, Purge the unclean -->
+		<Combat>Fierce combatants</Combat>
+		
+		<!-- Notes on whether a warband has siege weapons, epic creatures, that kind of thing. If you don't, delete it. -->
 		<Equip>Siege weapons</Equip>
+		
+		<!-- If you plan to yell (e.g. the Rats, Chaos, orcs, the Order), keep the line below. Otherwise, delete it. -->
 		<Noise>Loud warcries</Noise>
 	</Traits>
+	
 	<Relationships>
+		<!-- Don't feel like you have to fill all of these in, most warbands have 2-4 across all three subsections. -->
 		<Relation Name="Magic">
 			<Likes></Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
+		
 		<Relation Name="Races">
 			<Likes></Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
+		
 		<Relation Name="Faith">
+			<!-- "Likes" means you have members actively part of that race/magic/faith - e.g. the Order has Sigmar listed under Faiths, and the Jaegers have Wood Elves listed under Races -->
 			<Likes></Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
 	</Relationships>
+	
 	<Roles>
+		<!-- Groups are for distinct warband sections, like how Bretonnia has peasants and knights, or the Order is split into Witch Hunters, Flagellants, and Warrior Priests  -->
 		<Group Name="melee">
 			<Roles>
 				<Role>Infantry (Light)</Role>
 				<Role>Infantry (Heavy)</Role>
+				
+				<!-- Light vs Heavy is based on armour and weaponry: Heavy generally means you wield a two-hander/polearm or are visibly well-protected -->
 			</Roles>
 		</Group>
-		<Group Name="ranged">
+		
+		<Group Name="ranged"> <!-- Group names are optional -->
 			<Roles>
 				<Role>Archer</Role>
 				<Role>Arbalist</Role>
 				<Role>Gunner</Role>
 			</Roles>
 		</Group>
-		<Group Name="heals">
+		
+		<Group Name="healing">
 			<Roles>
 				<Role>Healer</Role>
 				<Role>Priest</Role>
@@ -60,24 +95,26 @@
 			</Roles>
 		</Group>
 	</Roles>
+	
 	<Colours>
-		<Primary code="#000000"></Primary>
-		<Secondary code="#000000"></Secondary>
-		<Tertiary code="#000000"></Tertiary>
-		<Quarternary code="#000000"></Quarternary>
+		<Primary code="#000000">Black</Primary>
+		<Secondary code="#FAFAF0">White</Secondary>
+		<Tertiary code="#FF0000">Red</Tertiary>
+		<Quarternary></Quarternary> <!-- Same format, but not strictly necessary -->
 	</Colours>
+	
 	<Weapons>
-		<Blank/>
+		<!-- List up to six that the warband commonly uses -->
 		<Sword/>
 		<Rapier/>
-		<Curved/>
+		<Curved/> <!-- used for sabres, cutlasses, katana, etc -->
 		<Mace/>
 		<Axe/>
 		<Dagger/>
-		<Shield Type="round"/><!-- kite, teardrop, oval, -->
+		<Shield Type=""/><!-- options: round, kite, teardrop, oval -->
 		<Warhammer/>
 		<Greatsword/>
-		<Longaxe/>
+		<Longaxe/> <!-- also used for glaives, war scythes, naginata, etc  -->
 		<Halberd/>
 		<Pike/>
 		<Staff/>
@@ -85,8 +122,6 @@
 		<Crossbow/>
 		<Pistol/>
 		<Rifle/>
-		<Special Type=""/><!-- stocks, choppa, music -->
-		<Spacer/>
-		<Crewed Type=""/><!-- cannon, trebuchet, volley -->
+		<Special Type=""/><!-- options: stocks, choppa, music -->
 	</Weapons>
 </Warband>
