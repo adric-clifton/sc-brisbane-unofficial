@@ -149,12 +149,12 @@ namespace SwordcraftBrisbane.Data
                 new Map { Search = SearchForColour(2), Property = warband.Colours.Secondary.code },
                 new Map { Search = SearchFor("ThirdColourCode"),
                     Property = $"{warband.Colours.Tertiary?.Name} ({warband.Colours.Tertiary?.code})" },
-                new Map { Search = SearchForColour(3), Property = TertiaryColourCalculation(warband) },
+                new Map { Search = SearchForColour(3), Property = warband.Colours.Tertiary?.code ?? "AAAAAA" },
                 new Map { Search = RemoveBlockForColour(3), Property = string.Empty,
                     Condition = warband.Colours.Tertiary == null || string.IsNullOrEmpty(warband.Colours.Tertiary.Name) },
                 new Map { Search = SearchFor("FourthColourCode"),
                     Property = $"{warband.Colours.Quarternary?.Name} ({warband.Colours.Quarternary?.code})" },
-                new Map { Search = SearchForColour(4), Property = warband.Colours.Quarternary?.code ?? "AAAAAA" },
+                new Map { Search = SearchForColour(4), Property = QuarternaryColourCalculation(warband) },
                 new Map { Search = RemoveBlockForColour(4), Property = string.Empty,
                     Condition = warband.Colours.Quarternary == null || string.IsNullOrEmpty(warband.Colours.Quarternary.Name) },
 
@@ -248,10 +248,10 @@ namespace SwordcraftBrisbane.Data
             return new Regex($@"[\r\n\s]+<div[^\r\n]+>[\r\n\s]+[^\r\n]+[\r\n\s]+<label.+?for=""Warband_{searchFor}"">.*?</label>[\r\n\s]+</div>");
         }
 
-        private static string TertiaryColourCalculation(Warband warband)
+        private static string QuarternaryColourCalculation(Warband warband)
         {
             if (warband.Id != ChaosId)
-                return warband.Colours.Tertiary?.code ?? "XXXXXX";
+                return warband.Colours.Quarternary?.code ?? "XXXXXX";
 
             var result = new StringBuilder(@"""><div style='display:flex'>");
             foreach (var col in new[] { "#650100", "#056503", "#011667", "#650048" })

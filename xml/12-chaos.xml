@@ -47,8 +47,8 @@
 	<Colours>
 		<Primary code="#56443A">Dull Brown</Primary>
 		<Secondary code="#000000">Black</Secondary>
-		<Tertiary code="#C4A055">Red, green, blue, pink (all dark)</Tertiary>
-		<Quarternary/>
+		<Tertiary code="#FAFAF0">White</Tertiary>
+		<Quarternary code="#C4A055">Red, green, blue, pink (all dark)</Quarternary>
 	</Colours>
 	<Weapons>
 		<Sword/>
