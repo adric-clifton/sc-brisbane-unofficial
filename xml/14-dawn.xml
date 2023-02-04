@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Warband Id="14">
+	<Name>Golden Dawn</Name>
+	<ShortName>Dawn</ShortName>
+	<Leader></Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>Proud caravan seemingly beset by all sides</Hook>
+	<Active>Mostly battlegrounds nights (last week of the month), some others</Active>
+	<Size>M</Size>
+	<Location>Nippon</Location>
+	<Description></Description>
+	<Style>15-16th Century Japanese ronin and shinobi. Gi, sashes, multiple layers, lamellar/eastern styled armour</Style>
+	<Accent></Accent>
+	<Traits>
+		<Values>???</Values>
+		<Feelings>???</Feelings>
+		<Combat>Fierce combatants</Combat>
+	</Traits>
+	<Relationships>
+		<Relation Name="Magic">
+			<Likes></Likes>
+			<Accepts></Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Races">
+			<Likes></Likes>
+			<Accepts>Beastmen</Accepts>
+			<Dislikes>Cathay, most others</Dislikes>
+			<Detests></Detests>
+		</Relation>
+		<Relation Name="Faith">
+			<Likes></Likes>
+			<Accepts>Chaos</Accepts>
+			<Dislikes></Dislikes>
+			<Detests></Detests>
+		</Relation>
+	</Relationships>
+	<Roles>
+		<Group>
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+		</Group>
+	</Roles>
+	<Colours>
+		<Primary code="#000000">Black</Primary>
+		<Secondary code="#FFBB00">Gold</Secondary>
+		<Tertiary/>
+		<Quarternary/>
+	</Colours>
+	<Weapons>
+		<Sword/>
+		<Curved/>
+		<Pike/>
+		<Staff/>
+		<Blank/>
+		<Blank/>
+	</Weapons>
+</Warband>
