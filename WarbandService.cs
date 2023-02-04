@@ -17,7 +17,7 @@ namespace SwordcraftBrisbane.Data
         private static readonly Regex ClearTable = new Regex(@"(?<=<tbody>)(?:(?>[\r\n\s]+)<?(?!\/tbody>)[^<].+)+");
         //new Regex(@"(?<=<div class="""">)(?>[\r\n\s]+)");
 
-        public static void WriteHtmlPages()
+        public static void WriteHtmlPages(string[] filenamesToProcess)
         {
             string templatePath, indexPath;
             try
@@ -34,10 +34,10 @@ namespace SwordcraftBrisbane.Data
             string originalTemplate = File.ReadAllText(templatePath);
             string indexTemplate = File.ReadAllText(indexPath);
 
+            var allWarbands = new List<Warband>();
+
             var files = Directory.GetFiles(LoadDirectory, "*.xml", SearchOption.TopDirectoryOnly);
             XmlSerializer reader = new XmlSerializer(typeof(Warband));
-
-            var allWarbands = new List<Warband>();
 
             foreach (var f in files.Where(x => !x.EndsWith("template.xml")))
             {
@@ -48,14 +48,10 @@ namespace SwordcraftBrisbane.Data
                 if (band != null)
                 {
                     allWarbands.Add(band);
-                    Console.Write("Processing {0}... ", band.ShortName);
-                    var template = ProcessTemplate(originalTemplate, band);
-                    OutputFile(template, $"{band.Id:D2}.html");
-                    Console.WriteLine("done.");
                 }
             }
 
-            Console.Write("\nProcessing main page... ");
+            Console.Write("Processing main page... ");
             indexTemplate = ClearTable.Replace(indexTemplate,
                 allWarbands.Aggregate(new StringBuilder(),
                 (sb, warband) =>
@@ -63,7 +59,29 @@ namespace SwordcraftBrisbane.Data
                 sb => sb.ToString()));
 
             OutputFile(indexTemplate, "index.html", false);
-            Console.WriteLine("done.");
+            Console.WriteLine("done.\n");
+            
+            if (filenamesToProcess.Length > 0)
+            {
+                var bandsToProcess = new List<Warband>();
+
+                foreach (var filename in filenamesToProcess)
+                {
+                    var found = allWarbands.SingleOrDefault(x =>
+                        filename.ToLower() == x.ShortName.Replace("ä", "a").Replace("é", "e").ToLower());
+                    if (found != null) bandsToProcess.Add(found);
+                }
+
+                allWarbands = bandsToProcess;
+            }
+
+            foreach (var band in allWarbands)
+            {
+                Console.Write("Processing {0}... ", band.ShortName);
+                var template = ProcessTemplate(originalTemplate, band);
+                OutputFile(template, $"{band.Id:D2}.html");
+                Console.WriteLine("done.");
+            }
 
             Console.WriteLine("\nExiting...");
             Thread.Sleep(500);

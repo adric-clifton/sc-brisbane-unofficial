@@ -2,4 +2,4 @@
 
 using SwordcraftBrisbane.Data;
 
-WarbandService.WriteHtmlPages();
+WarbandService.WriteHtmlPages(args);
