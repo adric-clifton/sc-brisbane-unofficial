@@ -1,101 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="14">
-	<Name>Golden Dawn</Name> <!-- Official Name e.g. The Arsenal House of the Leaden Thorn -->
-	<ShortName>Dawn</ShortName> <!-- Nickname e.g. Nuln -->
-	<Leader></Leader> <!-- Name of leader or 2ic -->
-	<ShowLeader>false</ShowLeader> <!-- Show the above on the page? -->
-	
-	<!-- One-line hook to describe the warband and draw interest -->
-	<Hook>Proud caravan seemingly beset by all sides</Hook>
-	
-	<!-- How often the warband runs -->
-	<Active>Mostly battlegrounds nights (last week of the month), some others</Active>
-	
-	<!-- M averages 5-10 members -->
+	<Name>The Golden Dawn</Name>
+	<ShortName>Dawn</ShortName>
+	<Leader>XXXX the Sword Saint</Leader>
+	<ShowLeader>false</ShowLeader>
+	<Hook>"World's greatest fighters" out to prove their words</Hook>
+	<Active>Battlegrounds nights (last week of the month) and one other per month</Active>
 	<Size>S-M</Size>
-	
-	<!-- Old World point of origin (Town, Province, Country, whatever) -->
 	<Location>Nippon</Location>
-	
-	<!-- Leave blank -->
 	<Description></Description>
-	
-	<!-- Real-world analogue/inspiration (including time period), list of notable accents and common armour. -->
-	<Style>15-16th Century Japanese ronin and shinobi. Gi, sashes, multiple layers, lamellar/eastern styled armour</Style>
-	
-	<!-- Real-world accent, generally understood to be exaggerated. "None" is fine too. -->
-	<Accent></Accent>
-	
+	<Style>15-16th Century (Sengoku Period) Japanese ronin and shinobi. Gi, sashes, multiple layers, lamellar/eastern styled armour</Style>
+	<Accent>None</Accent>
 	<Traits>
-		<!-- What values do they embody? Three words, usually "A and B" or similar. Examples: Observe and interfere, Mercenaries for hire, Defenders of nature -->
-		<Values>???</Values>
-		
-		<!-- What do they most love/hate? Format is "Love of X" or "Hatred of Y". Examples: Hatred of Chaos, Love of money, Love of black powder -->
-		<Feelings>???</Feelings>
-		
-		<!-- How do they fight? 2-4 words, tactics or general approach. Examples: Arrows for days, Heavy skirmishers, Purge the unclean -->
-		<Combat>Fierce combatants</Combat>
-		
-		<!-- Notes on whether a warband has siege weapons, epic creatures, that kind of thing. If you don't, delete it. -->
-		<Equip>Siege weapons</Equip>
-		
-		<!-- If you plan to yell (e.g. the Rats, Chaos, orcs, the Order), keep the line below. Otherwise, delete it. -->
+		<Values>Bushido and Loyalty</Values>
+		<Feelings>Hatred of cowardice</Feelings>
+		<Combat>Overwhelming strength</Combat>
 		<Noise>Loud warcries</Noise>
 	</Traits>
-	
 	<Relationships>
-		<!-- don't feel like you have to fill all of these in, most warbands have 2-4 across all three subsections. -->
 		<Relation Name="Magic">
-			<Likes></Likes>
-			<Accepts></Accepts>
-			<Dislikes></Dislikes>
+			<Likes>Vim-To</Likes>
+			<Accepts>Chaos</Accepts>
+			<Dislikes>Western Magics</Dislikes>
 			<Detests></Detests>
 		</Relation>
-		
 		<Relation Name="Races">
 			<Likes></Likes>
-			<Accepts>Beastmen</Accepts>
-			<Dislikes>Cathay, most others</Dislikes>
-			<Detests></Detests>
+			<Accepts>Beastmen, Elves</Accepts>
+			<Dislikes>Cathayans</Dislikes>
+			<Detests>Cowardly Westerners</Detests>
 		</Relation>
-		
 		<Relation Name="Faith">
-			<!-- "Likes" means you have members actively part of that race/magic/faith - e.g. the Order has Sigmar listed under Faiths, and the Jaegers have Wood Elves listed under Races -->
-			<Likes></Likes>
+			<Likes>Vim-To</Likes>
 			<Accepts>Chaos</Accepts>
 			<Dislikes></Dislikes>
-			<Detests></Detests>
+			<Detests>Sigmar</Detests>
 		</Relation>
 	</Relationships>
-	
 	<Roles>
-		<!-- Groups are for distinct warband sections, like how Bretonnia has peasants and knights, or the Order is split into Witch Hunters, Flagellants, and Warrior Priests -->
-		<Group>
+		<Group Name="Vim-To Warrior Priests">
 			<Role>Infantry (Light)</Role>
+			<Role>Priest</Role>
+		</Group>
+		<Group Name="Samurai">
 			<Role>Infantry (Heavy)</Role>
-			
-			<!-- options: Infantry (Light), Infantry (Heavy), Archer, Arbalist, Gunner, Healer, Priest, Mage -->
-			
-			<!-- Light vs Heavy infantry is based on armour and weaponry: Heavy generally means you wield a two-hander/polearm or are visibly well-protected -->
 		</Group>
 	</Roles>
-	
 	<Colours>
 		<Primary code="#000000">Black</Primary>
 		<Secondary code="#FFBB00">Gold</Secondary>
-		<Tertiary code="#000000">Black</Tertiary>
-		<Quarternary></Quarternary> <!-- Same format, but not strictly necessary -->
+		<Tertiary code="#FF0000">Red</Tertiary>
+		<Quarternary/>
 	</Colours>
-	
 	<Weapons>
-		<!-- List up to six that the warband commonly uses -->
+		<Curved/>
 		<Sword/>
-		<Curved/> <!-- used for sabres, cutlasses, katana, etc -->
+		<Curved/> <!--Nagamaki, Katana, Nodachi -->
 		<Pike/>
-		<Longaxe/> <!-- also used for glaives, war scythes, naginata, etc  -->
+		<Longaxe/> <!-- Yari, Naginata -->
 		<Staff/>
-		<Blank/>
-		
-		<!-- options: Shield, Sword, Rapier, Curved, Mace, Axe, Dagger, Warhammer, Greatsword, Longaxe, Halberd, Pike, Staff, Bow, Crossbow, Pistol, Rifle -->
 	</Weapons>
 </Warband>
