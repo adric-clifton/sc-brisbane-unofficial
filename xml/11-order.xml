@@ -55,7 +55,7 @@
 	<Colours>
 		<Primary code="#B20C00">Scarlet</Primary>
 		<Secondary code="#FAFAF0">White</Secondary>
-		<Tertiary code="#6B3129">Brown</Tertiary>
+		<Tertiary code="#000000">Black</Tertiary>
 		<Quarternary/>
 	</Colours>
 	<Weapons>
