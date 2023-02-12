@@ -5,17 +5,17 @@
 	<Pronunciation>del MAA-rae</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Legitimate merchants. Definitely not pirates</Hook>
+	<Hook>Ex-privateers, now legitimate merchants and gossips</Hook>
 	<Active>First two weeks of the month</Active>
 	<Size>M</Size>
 	<Location>Various locations within Tilea</Location>
 	<Description></Description>
-	<Style>16-17th C Italian-influenced East India Trading Company. Puffy shirts, stripes, fancy vests/coats, tricorns, light armour</Style>
+	<Style>1650-1750 Italian high fashion, influenced by East India Trading Company styles. Extravagant coats/waistcoats, ruffles, tricorns, light armour</Style>
 	<Accent>Italian</Accent>
 	<Traits>
-		<Values>Noisy and distracting</Values>
-		<Feelings>Love of money</Feelings>
-		<Combat>Skirmish and scouting</Combat>
+		<Values>Flamboyant and hireable</Values>
+		<Feelings>Love of contracts</Feelings>
+		<Combat>Support and distraction</Combat>
 		<Equip>Siege weapons</Equip>
 	</Traits>
 	<Relationships>
@@ -32,7 +32,7 @@
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
-			<Likes>Manann</Likes>
+			<Likes>Myrmidia, Manann</Likes>
 			<Accepts>Most others</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
