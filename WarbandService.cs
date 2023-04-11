@@ -45,7 +45,7 @@ namespace SwordcraftBrisbane.Data
                 var file = new StreamReader(filePath);
                 var input = reader.Deserialize(file);
                 Warband? band = input as Warband;
-                if (band != null)
+                if (band != null && band.Alive)
                 {
                     allWarbands.Add(band);
                 }

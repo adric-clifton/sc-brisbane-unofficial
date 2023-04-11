@@ -10,6 +10,12 @@ namespace SwordcraftBrisbane.Data
         [XmlAttribute]
         public int Id;
 
+        [XmlElement("Inactive", IsNullable = true)]
+        public string? Inactive;
+
+        [XmlIgnore]
+        public bool Alive { get { return this.Inactive == null; } }
+
         public string Name = "XXXXXX";
         public string ShortName = "XXXXXX";
         public string? Pronunciation;

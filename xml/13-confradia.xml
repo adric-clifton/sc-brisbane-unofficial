@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="13">
+	<Inactive/>
 	<Name>Confradia - Guild of Artisans and Merchants</Name>
 	<ShortName>Confradia</ShortName>
 	<Pronunciation>con-fra-DEE-ah</Pronunciation>
