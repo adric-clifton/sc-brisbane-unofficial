@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="2">
 	<Name>Imperio Del Mare Societa Commerciale</Name>
-	<ShortName>Del Maré</ShortName>
+	<ShortName>Del Mare</ShortName>
 	<Pronunciation>del MAA-rae</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
@@ -9,7 +9,7 @@
 	<Active>First two weeks of the month</Active>
 	<Size>M</Size>
 	<Location>Various locations within Tilea</Location>
-	<Description></Description>
+	<Description>A trading company (similar to the East India Trading Company) from Tilea, picking up those whose fortune lies beyond land's grasp. Expertise in maritime, mercenary, and mercantile trades. Debt-collection and discrete message services included. Adept in skirmishing, scouting and all round sh*t stirring - but definitely not frontline fighters.</Description>
 	<Style>1650-1750 Italian high fashion, influenced by East India Trading Company styles. Extravagant coats/waistcoats, ruffles, tricorns, light armour</Style>
 	<Accent>Italian</Accent>
 	<Traits>

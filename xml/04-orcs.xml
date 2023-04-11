@@ -7,8 +7,8 @@
 	<Hook>Orcs, goblins, and Arabyan merchants</Hook>
 	<Active>Mostly winter, will often run as Araby or feral humans in summer</Active>
 	<Size>M</Size>
-	<Description></Description>
 	<Location>The Badlands, Araby</Location>
+	<Description>An orc and goblin warband that was founded when scattered individuals banded together for survival and marched their way into Helsreik to find their own piece of turf. They have now settled on the outskirts of the township. Humans who have forsaken polite society have joined the ranks as well.</Description>
 	<Style>Less of the big spiky Warhammer style, more Tolkien-esque silhouettes. Greenskins: tattered cloth, skulls, patchwork, bones, heavy armour. Araby: turbans, baggy or no sleeves, fine fabrics, lamellar, mirror armour</Style>
 	<Accent>Gruff and raspy, or high and wheedling</Accent>
 	<Traits>
