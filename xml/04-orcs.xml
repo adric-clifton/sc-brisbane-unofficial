@@ -4,12 +4,12 @@
 	<ShortName>Orcs</ShortName>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Orcs, goblins and other feral types</Hook>
-	<Active>Winter-only, will sometimes run as feral humans in summer</Active>
+	<Hook>Orcs, goblins, and Arabyan merchants</Hook>
+	<Active>Mostly winter, will often run as Araby or feral humans in summer</Active>
 	<Size>M</Size>
-	<Location>The Badlands</Location>
 	<Description></Description>
-	<Style>Less of the big spiky Warhammer style, more Tolkien-esque silhouettes. Tattered cloth, skulls, patchwork, bones, heavy armour</Style>
+	<Location>The Badlands, Araby</Location>
+	<Style>Less of the big spiky Warhammer style, more Tolkien-esque silhouettes. Greenskins: tattered cloth, skulls, patchwork, bones, heavy armour. Araby: turbans, baggy or no sleeves, fine fabrics, lamellar, mirror armour</Style>
 	<Accent>Gruff and raspy, or high and wheedling</Accent>
 	<Traits>
 		<Values>???</Values>
@@ -26,7 +26,7 @@
 		</Relation>
 		<Relation Name="Races">
 			<Likes>Orcs, goblins, trolls</Likes>
-			<Accepts>Humans (feral)</Accepts>
+			<Accepts>Humans (Araby, feral)</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
@@ -38,17 +38,21 @@
 		</Relation>
 	</Relationships>
 	<Roles>
-		<Group>
+		<Group Name="Greenskins">
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+			<Role>Mage</Role>
+		</Group>
+		<Group Name="Araby">
 			<Role>Infantry (Light)</Role>
 			<Role>Infantry (Heavy)</Role>
 			<Role>Gunner</Role>
-			<Role>Mage</Role>
 		</Group>
 	</Roles>
 	<Colours>
-		<Primary code="#472F24">Brown</Primary>
-		<Secondary code="#000000">Black</Secondary>
-		<Tertiary/>
+		<Primary code="#FF9900">Yellow</Primary>
+		<Secondary code="#472F24">Brown</Secondary>
+		<Tertiary code="#000000">Black</Tertiary>
 		<Quarternary/>
 	</Colours>
 	<Weapons>
