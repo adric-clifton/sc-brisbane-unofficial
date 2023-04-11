@@ -10,7 +10,7 @@
 	<Size>M</Size>
 	<Location>Ostland and other Empire lands</Location>
 	<Description></Description>
-	<Style>Witch hunters: big hats, leather coats, guns. Priests: robes, plate armour, warhammers. Zealots: rags, chains, death wish.</Style>
+	<Style>Witch hunters: big hats, leather coats, guns. Priests: robes, plate armour, warhammers. Zealots: rags, chains, death wish. Soldiers: slashed sleeves, breastplates, berets.</Style>
 	<Accent>German or none</Accent>
 	<Traits>
 		<Values>Purity and Protection</Values>
@@ -39,8 +39,12 @@
 		</Relation>
 	</Relationships>
 	<Roles>
-		<Group Name="Flagellants">
+		<Group Name="Zealots">
 			<Role>Infantry (Light)</Role>
+		</Group>
+		<Group Name="Empire soldiers">
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
 		</Group>
 		<Group Name="Warrior Priests">
 			<Role>Infantry (Heavy)</Role>
