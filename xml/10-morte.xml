@@ -41,6 +41,7 @@
 		<Group>
 			<Role>Infantry (Light)</Role>
 			<Role>Infantry (Heavy)</Role>
+			<Role>Healer</Role>
 		</Group>
 	</Roles>
 	<Colours>
