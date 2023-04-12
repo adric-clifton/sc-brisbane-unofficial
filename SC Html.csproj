@@ -79,7 +79,7 @@
     <None Remove="xml\07-dancers.xml" />
     <None Remove="xml\08-cathay.xml" />
     <None Remove="xml\09-nuln.xml" />
-    <None Remove="xml\10-volto.xml" />
+    <None Remove="xml\10-morte.xml" />
     <None Remove="xml\11-order.xml" />
     <None Remove="xml\12-chaos.xml" />
     <None Remove="xml\13-confradia.xml" />
@@ -282,7 +282,7 @@
     <Content Include="xml\09-nuln.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="xml\10-volto.xml">
+    <Content Include="xml\10-morte.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="xml\11-order.xml">
