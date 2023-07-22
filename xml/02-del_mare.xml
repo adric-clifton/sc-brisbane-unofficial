@@ -20,7 +20,7 @@
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
-			<Likes>Azyr (blue)</Likes>
+			<Likes>Azyr (blue), Ulgu (grey), Shyish (purple)</Likes>
 			<Accepts>All winds</Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
