@@ -71,28 +71,22 @@
 	<Roles>
 		<!-- Groups are for distinct warband sections, like how Bretonnia has peasants and knights, or the Order is split into Witch Hunters, Flagellants, and Warrior Priests  -->
 		<Group Name="melee">
-			<Roles>
-				<Role>Infantry (Light)</Role>
-				<Role>Infantry (Heavy)</Role>
-				
-				<!-- Light vs Heavy is based on armour and weaponry: Heavy generally means you wield a two-hander/polearm or are visibly well-protected -->
-			</Roles>
+			<Role>Infantry (Light)</Role>
+			<Role>Infantry (Heavy)</Role>
+			
+			<!-- Light vs Heavy is based on armour and weaponry: Heavy generally means you wield a two-hander/polearm or are visibly well-protected -->
 		</Group>
 		
 		<Group Name="ranged"> <!-- Group names are optional -->
-			<Roles>
-				<Role>Archer</Role>
-				<Role>Arbalist</Role>
-				<Role>Gunner</Role>
-			</Roles>
+			<Role>Archer</Role>
+			<Role>Arbalist</Role>
+			<Role>Gunner</Role>
 		</Group>
 		
 		<Group Name="healing">
-			<Roles>
-				<Role>Healer</Role>
-				<Role>Priest</Role>
-				<Role>Mage</Role>
-			</Roles>
+			<Role>Healer</Role>
+			<Role>Priest</Role>
+			<Role>Mage</Role>
 		</Group>
 	</Roles>
 	
