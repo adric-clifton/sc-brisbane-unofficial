@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="10">
 	<Name>Compagnia dei Lupi della Morte</Name>
-	<ShortName>Morte</ShortName>
+	<ShortName>Wolves of Death</ShortName>
 	<Pronunciation>MOR-teh</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
@@ -10,7 +10,7 @@
 	<Size>S</Size>
 	<Location>Tilea</Location>
 	<Description>A Tilean-based mercenary warband in the business of coin. Formed by the remnants of several mercenary groups that were left shattered after a brutal siege. Our loyalty belongs to the contracts we sign, and the brothers and sisters who fight under our banner. One unit, united. Together we stand.</Description>
-	<Style>Mostly 16-17th Century but widely varied geo-influence. Hooded surcoats, any armour</Style>
+	<Style>Mostly 16-17th Century, varied geo-influence. Half-capes, often heavy armour</Style>
 	<Accent>Mostly Italian</Accent>
 	<Traits>
 		<Values>Mercenaries for hire</Values>
