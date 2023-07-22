@@ -1,1 +1,1 @@
-"bin\Release\net6.0\SC Html.exe"
+"bin\Release\net6.0\SC Html.exe" %*
