@@ -1,1 +1,1 @@
-mkdir /j docs ".\bin\Release\net6.0\wwwroot"
+mklink /j docs "wwwroot"
