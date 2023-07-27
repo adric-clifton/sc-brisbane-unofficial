@@ -9,7 +9,7 @@
 	<Size>S-M</Size>
 	<Location>Albion</Location>
 	<Description>A clan of martial warriors with little understanding of the laws of the Empire, trying to figure out how they got to the Border Princes and how to get home. Staying on the outskirts of the Empire gives them a greater chance of survival, as they don't understand all of the politics of the Empire. The Antlers are obsessed with the concept of the Ruck - the action of proving their strength - and will fight to the bitter end to do so.</Description>
-	<Style>Early-medieval era Scottish warriors and mages. Tartan, kilts, woad paint, leather armour and some chainmail.</Style>
+	<Style>Ancient to pre-medieval era Scottish warriors and mages. Tartan, kilts, woad paint, leather armour and some chainmail.</Style>
 	<Accent>Scottish</Accent>
 	
 	<Traits>
@@ -29,14 +29,14 @@
 		</Relation>
 		
 		<Relation Name="Races">
-			<Likes></Likes>
+			<Likes>Human only</Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
 		
 		<Relation Name="Faith">
-			<Likes></Likes>
+			<Likes>Sotek, Light of the Seven</Likes>
 			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
