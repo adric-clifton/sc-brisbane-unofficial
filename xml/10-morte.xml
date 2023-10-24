@@ -27,7 +27,7 @@
 		<Relation Name="Races">
 			<Likes></Likes>
 			<Accepts>Elves, Dwarves</Accepts>
-			<Dislikes>Estalians (rivals)</Dislikes>
+			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
