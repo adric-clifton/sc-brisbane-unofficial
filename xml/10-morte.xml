@@ -5,17 +5,17 @@
 	<Pronunciation>MOR-teh</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Mercenary dogs of war company</Hook>
+	<Hook>Professional mercenary company</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>S</Size>
+	<Size>M</Size>
 	<Location>Tilea</Location>
 	<Description>A Tilean-based mercenary warband in the business of coin. Formed by the remnants of several mercenary groups that were left shattered after a brutal siege. Our loyalty belongs to the contracts we sign, and the brothers and sisters who fight under our banner. One unit, united. Together we stand.</Description>
-	<Style>Mostly 16-17th Century, varied geo-influence. Half-capes, often heavy armour</Style>
+	<Style>14-16th Century Italian/German inspiration. Stylish half-capes, occasional wide hats, plate armour</Style>
 	<Accent>Mostly Italian</Accent>
 	<Traits>
 		<Values>Mercenaries for hire</Values>
-		<Feelings>Love of money</Feelings>
-		<Combat>???</Combat>
+		<Feelings>Love of contracts</Feelings>
+		<Combat>Disciplined shield wall</Combat>
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
@@ -26,36 +26,38 @@
 		</Relation>
 		<Relation Name="Races">
 			<Likes></Likes>
-			<Accepts></Accepts>
+			<Accepts>Elves, Dwarves</Accepts>
 			<Dislikes>Estalians (rivals)</Dislikes>
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
-			<Likes></Likes>
-			<Accepts>Myrmidia</Accepts>
+			<Likes>Myrmidia, Verena</Likes>
+			<Accepts>Most others</Accepts>
 			<Dislikes></Dislikes>
-			<Detests></Detests>
+			<Detests>Chaos</Detests>
 		</Relation>
 	</Relationships>
 	<Roles>
 		<Group>
 			<Role>Infantry (Light)</Role>
 			<Role>Infantry (Heavy)</Role>
+			<Role>Gunner</Role>
 			<Role>Healer</Role>
+			<Role>Priest</Role>
 		</Group>
 	</Roles>
 	<Colours>
-		<Primary code="#571C2F">Maroon</Primary>
-		<Secondary code="#D0A53C">Gold</Secondary>
-		<Tertiary/>
+		<Primary code="#571C2F">Burgundy</Primary>
+		<Secondary code="#000000">Black</Secondary>
+		<Tertiary code="#D0A53C">Gold</Tertiary>
 		<Quarternary/>
 	</Colours>
 	<Weapons>
 		<Sword/>
-		<Curved/>
+		<Dagger/>
 		<Shield Type="kite"/>
 		<Greatsword/>
-		<Halberd/>
-		<Rifle/>
+		<Pike/>
+		<Pistol/>
 	</Weapons>
 </Warband>

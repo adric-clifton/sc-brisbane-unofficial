@@ -66,7 +66,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">One-line hook</label>
-                                                <label class="form-control" for="Warband_Hook">Mercenary dogs of war company</label>
+                                                <label class="form-control" for="Warband_Hook">Professional mercenary company</label>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">Active Period</label>
@@ -75,7 +75,7 @@
                                             <div class="form-group">
                                                 <label class="control-label">Approximate Size</label>
                                                 <span class="text-info">(M averages 5-10)</span>
-                                                <label class="form-control" for="Warband_ApproxSize">S</label>
+                                                <label class="form-control" for="Warband_ApproxSize">M</label>
                                             </div>
                                         </div>
                                     </div>
@@ -96,11 +96,11 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">What do they love/hate?</label>
-                                                <label class="form-control" for="Warband_Feelings">Love of money</label>
+                                                <label class="form-control" for="Warband_Feelings">Love of contracts</label>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">How do they fight?</label>
-                                                <label class="form-control" for="Warband_Combat">???</label>
+                                                <label class="form-control" for="Warband_Combat">Disciplined shield wall</label>
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +111,7 @@
                                         <div class="card-body">
                                             <div class="form-group">
                                                 <label class="control-label">Costuming style</label>
-                                                <label class="form-control" for="Warband_Style">Mostly 16-17th Century, varied geo-influence. Half-capes, often heavy armour</label>
+                                                <label class="form-control" for="Warband_Style">14-16th Century Italian/German inspiration. Stylish half-capes, occasional wide hats, plate armour</label>
                                             </div>
                                             <div class="form-group">
                                                 <label class="control-label">Accent</label>
@@ -128,13 +128,18 @@
                                                 <div class="card-body">
                                                     <div class="form-group">
                                                         <label class="control-label">Primary</label>
-                                                        <label class="form-control" for="Warband_FirstColourCode">Maroon (#571C2F)</label>
+                                                        <label class="form-control" for="Warband_FirstColourCode">Burgundy (#571C2F)</label>
                                                         <div id="colour1" class="swatch" style="background-color: #571C2F">&nbsp;</div>
                                                     </div>
                                                     <div class="form-group">
                                                         <label class="control-label">Secondary</label>
-                                                        <label class="form-control" for="Warband_SecondColourCode">Gold (#D0A53C)</label>
-                                                        <div id="colour2" class="swatch" style="background-color: #D0A53C">&nbsp;</div>
+                                                        <label class="form-control" for="Warband_SecondColourCode">Black (#000000)</label>
+                                                        <div id="colour2" class="swatch" style="background-color: #000000">&nbsp;</div>
+                                                    </div>
+                                                    <div id="tertiary" class="form-group">
+                                                        <label class="control-label">Tertiary</label>
+                                                        <label class="form-control" for="Warband_ThirdColourCode">Gold (#D0A53C)</label>
+                                                        <div id="colour3" class="swatch" style="background-color: #D0A53C">&nbsp;</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -149,7 +154,9 @@
                                         <div class="card-body">
 <div class='card'><div class='card-header'><label class='control-label'><i>(Main Group)</i></label></div><div class='card-body'><div class='card-text'><label>Infantry (Light)</label></div>
 <div class='card-text'><label>Infantry (Heavy)</label></div>
+<div class='card-text'><label>Gunner</label></div>
 <div class='card-text'><label>Healer</label></div>
+<div class='card-text'><label>Priest</label></div>
 </div></div>
                                         </div>
                                     </div>
@@ -161,11 +168,11 @@
                                         <div class="form-group card-body">
                                             <div class="card-text weapon" style="display: flex" id="weaponBlock">
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Sword' src='../Images/weapons/m_sword.png'/></span>
-<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Curved' src='../Images/weapons/m_curved.png'/></span>
+<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Dagger' src='../Images/weapons/m_dagger.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Shield (kite)' src='../Images/weapons/s_kite.png'/></span>
 <span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Greatsword' src='../Images/weapons/m_greatsword.png'/></span>
-<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Halberd' src='../Images/weapons/m_halberd.png'/></span>
-<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Rifle' src='../Images/weapons/r_rifle.png'/></span>
+<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Pike' src='../Images/weapons/m_pike.png'/></span>
+<span name='weapon' class='autoSpace'><img class='inBlock p100' alt='Pistol' src='../Images/weapons/r_pistol.png'/></span>
                                             </div>
                                         </div>
                                     </div>
@@ -188,6 +195,10 @@
                                                 <label class="card-header">Races</label>
                                                 <div class="card-body">
                                                     <div class="form-group">
+                                                        <label class="control-label inline alert-primary">Accepts</label>
+                                                        <label class="form-control inline" for="Warband_RacesAccepts">Elves, Dwarves</label>
+                                                    </div>
+                                                    <div class="form-group">
                                                         <label class="control-label inline alert-dark">Dislikes</label>
                                                         <label class="form-control inline" for="Warband_RacesDislikes">Estalians (rivals)</label>
                                                     </div>
@@ -199,8 +210,16 @@
                                                 <label class="card-header">Faiths</label>
                                                 <div class="card-body">
                                                     <div class="form-group">
+                                                        <label class="control-label inline alert-success">Active</label>
+                                                        <label class="form-control inline" for="Warband_FaithLikes">Myrmidia, Verena</label>
+                                                    </div>
+                                                    <div class="form-group">
                                                         <label class="control-label inline alert-primary">Accepts</label>
-                                                        <label class="form-control inline" for="Warband_FaithAccepts">Myrmidia</label>
+                                                        <label class="form-control inline" for="Warband_FaithAccepts">Most others</label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="control-label inline alert-danger">Detests</label>
+                                                        <label class="form-control inline" for="Warband_FaithDetests">Chaos</label>
                                                     </div>
                                                 </div>
                                             </div>
