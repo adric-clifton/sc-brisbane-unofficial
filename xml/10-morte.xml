@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="10">
 	<Name>Compagnia dei Lupi della Morte</Name>
-	<ShortName>Wolves of Death</ShortName>
+	<ShortName>Dei Lupi</ShortName>
 	<Pronunciation>MOR-teh</Pronunciation>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Professional mercenary company</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>M</Size>
+	<Size>M-L</Size>
 	<Location>Tilea</Location>
 	<Description>A Tilean-based mercenary warband in the business of coin. Formed by the remnants of several mercenary groups that were left shattered after a brutal siege. Our loyalty belongs to the contracts we sign, and the brothers and sisters who fight under our banner. One unit, united. Together we stand.</Description>
 	<Style>14-16th Century Italian/German inspiration. Stylish half-capes, occasional wide hats, plate armour</Style>
@@ -15,7 +15,7 @@
 	<Traits>
 		<Values>Mercenaries for hire</Values>
 		<Feelings>Love of contracts</Feelings>
-		<Combat>Disciplined shield wall</Combat>
+		<Combat>Pike and shield</Combat>
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
@@ -31,10 +31,10 @@
 			<Detests></Detests>
 		</Relation>
 		<Relation Name="Faith">
-			<Likes>Myrmidia, Verena</Likes>
-			<Accepts>Most others</Accepts>
+			<Likes>Verena</Likes>
+			<Accepts>Myrmidia, Most others</Accepts>
 			<Dislikes></Dislikes>
-			<Detests>Chaos</Detests>
+			<Detests></Detests>
 		</Relation>
 	</Relationships>
 	<Roles>

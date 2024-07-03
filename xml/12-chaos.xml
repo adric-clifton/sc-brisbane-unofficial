@@ -5,7 +5,7 @@
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Chaos worshippers of all four spicy flavours</Hook>
-	<Active>Default, approximately every week</Active>
+	<Active>Always at least one on field, big rollout every month or so</Active>
 	<Size>S-M</Size>
 	<Location>Called from across the known world</Location>
 	<Description>A mysterious and mystical sorcerer has gained power and lured followers of Chaos to band together. They join forces to lay waste to the town of Helsreik, with the promise of power and favour to their chosen deity.</Description>
@@ -54,8 +54,8 @@
 		<Sword/>
 		<Mace/>
 		<Shield Type="round"/>
+		<Staff/>
 		<Axe/>
-		<Blank/>
-		<Blank/>
+		<Dagger/>
 	</Weapons>
 </Warband>

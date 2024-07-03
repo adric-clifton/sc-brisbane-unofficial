@@ -15,7 +15,6 @@
 		<Values>Honour and valour</Values>
 		<Feelings>Hatred of greenskins</Feelings>
 		<Combat>Straightforward combat</Combat>
-		<Equip>Siege weapon</Equip>
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">

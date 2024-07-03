@@ -6,7 +6,7 @@
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Ex-privateers, now legitimate merchants and gossips</Hook>
-	<Active>First two weeks of the month</Active>
+	<Active>Usually just the first two weeks of the month</Active>
 	<Size>M</Size>
 	<Location>Various locations within Tilea</Location>
 	<Description>A trading company (similar to the East India Trading Company) from Tilea, picking up those whose fortune lies beyond land's grasp. Expertise in maritime, mercenary, and mercantile trades. Debt-collection and discrete message services included. Adept in skirmishing, scouting and all round sh*t stirring - but definitely not frontline fighters.</Description>
@@ -39,11 +39,15 @@
 		</Relation>
 	</Relationships>
 	<Roles>
-		<Group>
+		<Group Name="Merchants">
 			<Role>Infantry (Light)</Role>
 			<Role>Gunner</Role>
 			<Role>Healer</Role>
 			<Role>Mage</Role>
+		</Group>
+		<Group Name="Jesters">
+			<Role>Infantry (Light)</Role>
+			<Role>Bard</Role>
 		</Group>
 	</Roles>
 	<Colours>
@@ -57,7 +61,7 @@
 		<Rapier/>
 		<Shield Type="round"/>
 		<Staff/>
-		<Pistol/>
 		<Rifle/>
+		<Pistol/>
 	</Weapons>
 </Warband>

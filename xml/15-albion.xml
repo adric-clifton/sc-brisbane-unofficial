@@ -4,18 +4,18 @@
 	<ShortName>Albion</ShortName>
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
-	<Hook>Celtic warriors out to prove their strength through combat</Hook>
-	<Active>Default, approximately every week</Active>
-	<Size>S-M</Size>
+	<Hook>Celtic brawlers looking for fights</Hook>
+	<Active>Every other week</Active>
+	<Size>Varies, usually at least S-M</Size>
 	<Location>Albion</Location>
 	<Description>A clan of martial warriors with little understanding of the laws of the Empire, trying to figure out how they got to the Border Princes and how to get home. Staying on the outskirts of the Empire gives them a greater chance of survival, as they don't understand all of the politics of the Empire. The Antlers are obsessed with the concept of the Ruck - the action of proving their strength - and will fight to the bitter end to do so.</Description>
 	<Style>Ancient to pre-medieval era Scottish warriors and mages. Tartan, kilts, woad paint, leather armour and some chainmail.</Style>
 	<Accent>Scottish</Accent>
 	
 	<Traits>
-		<Values>???</Values>
+		<Values>Noisy and unpredictable</Values>
 		<Feelings>Love of fighting</Feelings>
-		<Combat>Brash combatants</Combat>
+		<Combat>Mob tactics</Combat>
 		
 		<Noise>Loud warcries</Noise>
 	</Traits>
@@ -53,16 +53,16 @@
 	<Colours>
 		<Primary code="#1F274E">Blue</Primary>
 		<Secondary code="#4C532A">Green</Secondary>
-		<Tertiary code="6D492F">Brown</Tertiary>
+		<Tertiary code="#6D492F">Brown</Tertiary>
 		<Quarternary></Quarternary>
 	</Colours>
 	
 	<Weapons>
 		<Sword/>
 		<Axe/>
-		<Dagger/>
-		<Greatsword/>
+		<Shield Type="round"/>
 		<Staff/>
-		<Pistol/>
+		<Greatsword/>
+		<Dagger/>
 	</Weapons>
 </Warband>

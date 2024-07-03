@@ -6,7 +6,7 @@
 	<ShowLeader>false</ShowLeader>
 	<Hook>Various kinds of elvish tricksters</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>M</Size>
+	<Size>M-L</Size>
 	<Location>Fyr Darric, in Athel Loren</Location>
 	<Description>We are a motley crew of wood elves from the depths of Fyr Darric within the woods of Athel Loren. We prefer to dress ourselves in the garb of the forest at summer's end. We look forward to seeing more of the intriguing behaviours of the inhabitants of Helsriek.</Description>
 	<Style>Leaf- and autumn-inspired elven aesthetic. Cloaks, skirts, tunics, layers, leather armour</Style>
@@ -18,8 +18,8 @@
 	</Traits>
 	<Relationships>
 		<Relation Name="Magic">
-			<Likes></Likes>
-			<Accepts>Fey (wood elf), Qhaysh (silver)</Accepts>
+			<Likes>Fey (wood elf), Qhaysh (silver)</Likes>
+			<Accepts></Accepts>
 			<Dislikes></Dislikes>
 			<Detests></Detests>
 		</Relation>
@@ -41,7 +41,8 @@
 			<Role>Infantry (Light)</Role>
 			<Role>Archer</Role>
 			<Role>Arbalist</Role>
-			<Role>Healer</Role>
+			<Role>Mage</Role>
+			<Role>Priest</Role>
 		</Group>
 	</Roles>
 	<Colours>
