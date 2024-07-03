@@ -84,7 +84,7 @@ namespace SwordcraftBrisbane.Data
             public string ToHtml()
             {
                 var result = $"\n<span name='weapon' class='autoSpace'>" +
-                    $"<img class='inBlock p100' alt='{DisplayName}' " +
+                    $"<img class='inBlock p100' alt='{DisplayName}' title='{DisplayName}' " +
                     $"src='../Images/weapons/{ImageName}.png'/>" +
                     $"</span>";
                 return result;

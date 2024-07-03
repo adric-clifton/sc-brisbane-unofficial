@@ -121,7 +121,7 @@ namespace SwordcraftBrisbane.Data
                         foreach (var weapon in Weapons)
                         {
                             result.Append("<span class='autoSpace'>");
-                            result.Append($"<img class='inBlock fit6 weapon' src='./Images/weapons/{weapon.ImageName}.png'>");
+                            result.Append($"<img class='inBlock fit6 weapon' alt='{weapon.DisplayName}' title='{weapon.DisplayName}' src='./Images/weapons/{weapon.ImageName}.png'>");
                             result.Append("</span>");
                         }
                     }
