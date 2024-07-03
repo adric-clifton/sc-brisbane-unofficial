@@ -141,20 +141,17 @@ namespace SwordcraftBrisbane.Data
                 new Map { Search = SearchFor("Accent"), Property = string.IsNullOrEmpty(warband.Accent)
                     ? "<i>-- No data --</i>" : warband.Accent },
                 new Map { Search = SearchForLogo, Property = $"{warband.Id:D2}" },
-                new Map { Search = SearchFor("FirstColourCode"),
-                    Property = $"{warband.Colours.Primary.Name} ({warband.Colours.Primary.code})" },
+                new Map { Search = SearchFor("FirstColourCode"), Property = $"{warband.Colours.Primary.Name}" },
                 new Map { Search = SearchForColour(1), Property = warband.Colours.Primary.code },
-                new Map { Search = SearchFor("SecondColourCode"),
-                    Property = $"{warband.Colours.Secondary.Name} ({warband.Colours.Secondary.code})" },
+                new Map { Search = SearchFor("SecondColourCode"), Property = $"{warband.Colours.Secondary.Name}" },
                 new Map { Search = SearchForColour(2), Property = warband.Colours.Secondary.code },
-                new Map { Search = SearchFor("ThirdColourCode"),
-                    Property = $"{warband.Colours.Tertiary?.Name} ({warband.Colours.Tertiary?.code})" },
+                new Map { Search = SearchFor("ThirdColourCode"), Property = $"{warband.Colours.Tertiary?.Name}" },
                 new Map { Search = SearchForColour(3), Property = warband.Colours.Tertiary?.code ?? "AAAAAA" },
                 new Map { Search = RemoveBlockForColour(3), Property = string.Empty,
                     Condition = warband.Colours.Tertiary == null || string.IsNullOrEmpty(warband.Colours.Tertiary.Name) },
-                new Map { Search = SearchFor("FourthColourCode"),
-                    Property = $"{warband.Colours.Quarternary?.Name} ({warband.Colours.Quarternary?.code})" },
-                new Map { Search = SearchForColour(4), Property = QuarternaryColourCalculation(warband) },
+                new Map { Search = SearchFor("FourthColourCode"), Property = $"{warband.Colours.Quarternary?.Name}" },
+                new Map { Search = SearchForChaos(), Property = QuarternaryColourCalculation(warband), Condition = warband.Id == ChaosId },
+                new Map { Search = SearchForColour(4), Property = warband.Colours.Quarternary?.code ?? "AAAAAA" },
                 new Map { Search = RemoveBlockForColour(4), Property = string.Empty,
                     Condition = warband.Colours.Quarternary == null || string.IsNullOrEmpty(warband.Colours.Quarternary.Name) },
 
@@ -224,14 +221,13 @@ namespace SwordcraftBrisbane.Data
         {
             if (colourId < 1 || colourId > 4) throw new ArgumentOutOfRangeException();
 
-            var searchTerm = $@"<div id=""colour{colourId}""";
-            return new Regex($@"(?<={searchTerm} class=""swatch"" style=""background-color: )#XXXXXX");
+            return new Regex($@"(?<=<div id=""colour{colourId}"" [^\r\n]+?: )#XXXXXX");
         }
 
         static readonly Regex SearchForLogo
             = new Regex(@"(?<=<img class=""autoSpace block p300"" src=""\.\.\/Images\/)XXXXXX");
         static readonly Regex ReplaceFullRoleBlock
-            = new Regex(@"(?<=for=""Warband_Roles"">Roles</label>\r\n {40}<div class=""card-body"">)(?:[\r\n\s]+[^\n]+){12}");
+            = new Regex(@"(?<=for=""Warband_Roles"">Roles</label>\r\n {24}<div class=""card-body"">)(?:[\r\n\s]+[^\n]+){12}");
         static readonly Regex ReplaceFullWeaponBlock
             = new Regex(@"(?<=id=""weaponBlock"">)(?:[\r\n\s]+[^\n]+){18}");
 
@@ -248,24 +244,29 @@ namespace SwordcraftBrisbane.Data
             return new Regex($@"[\r\n\s]+<div[^\r\n]+>[\r\n\s]+[^\r\n]+[\r\n\s]+<label.+?for=""Warband_{searchFor}"">.*?</label>[\r\n\s]+</div>");
         }
 
+        private static Regex SearchForChaos()
+        {
+            return new Regex("(?<=<div id=\"colour4\" class=\"swatch\" style=\"background-color: )#XXXXXX.*(?=</div>)");
+        }
+
         private static string QuarternaryColourCalculation(Warband warband)
         {
             if (warband.Id != ChaosId)
-                return warband.Colours.Quarternary?.code ?? "XXXXXX";
+                return (warband.Colours.Quarternary?.code ?? "#000000") + "\">&nbsp;";
 
             var result = new StringBuilder(@"""><div style='display:flex'>");
             foreach (var col in new[] { "#650100", "#056503", "#011667", "#650048" })
             {
                 result.Append(DisplayColourBlock(col, "span", "width: 25%"));
             }
-            result.Append("</div");
+            result.Append("</div>");
 
             return result.ToString();
         }
 
         private static string DisplayColourBlock(string colour, string elementName = "div", string styles = "")
         {
-            return string.Format(@"<{0} class='swatch' style='background-color: {1}; {2}'>&nbsp;</{0}>",
+            return string.Format(@"<{0} class='swatch' title='html code: {1}' style='background-color: {1}; {2}'>&nbsp;</{0}>",
                 elementName, colour, styles);
         }
     }
