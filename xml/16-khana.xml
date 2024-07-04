@@ -63,10 +63,10 @@
 
 	<Weapons>
 		<Curved/>
-		<Bow/>
+		<Axe/>
 		<Shield Type="round"/>
-		<Longaxe/>
+		<Curved/>
 		<Pike/>
-		<Dagger/>
+		<Bow/>
 	</Weapons>
 </Warband>
