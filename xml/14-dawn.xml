@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Warband Id="14">
+	<Inactive/>
 	<Name>The Golden Dawn</Name>
 	<ShortName>Dawn</ShortName>
 	<Leader>XXXX the Sword Saint</Leader>

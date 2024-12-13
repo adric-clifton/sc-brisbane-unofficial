@@ -6,7 +6,7 @@
 	<ShowLeader>false</ShowLeader>
 	<Hook>&lt;s&gt;KGB-controlled delinquent gang&lt;/s&gt; Standard Adventuring Guild</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>M</Size>
+	<Size>S-M</Size>
 	<Location>Various locations within Kislev</Location>
 	<Description>A guild of Kislevites who travelled south in service of a Chekist. Mostly made up of stubborn, resourceful, and adaptable people; the Rats intend to make a living while doing their duty as Kislevites by seeking out and destroying Chaos wherever it hides.</Description>
 	<Style>Russian/Mongolian/Polish inspired. Baggy pants, fur hats, military coats, leather/plate/lamellar armour</Style>

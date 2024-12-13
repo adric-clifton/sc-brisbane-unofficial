@@ -2,15 +2,15 @@
 <Warband Id="10">
 	<Name>Compagnia dei Lupi della Morte</Name>
 	<ShortName>Dei Lupi</ShortName>
-	<Pronunciation>MOR-teh</Pronunciation>
+	<!--<Pronunciation>MOR-teh</Pronunciation>-->
 	<Leader></Leader>
 	<ShowLeader>false</ShowLeader>
 	<Hook>Professional mercenary company</Hook>
 	<Active>Default, approximately every week</Active>
-	<Size>M-L</Size>
+	<Size>L</Size>
 	<Location>Tilea</Location>
 	<Description>A Tilean-based mercenary warband in the business of coin. Formed by the remnants of several mercenary groups that were left shattered after a brutal siege. Our loyalty belongs to the contracts we sign, and the brothers and sisters who fight under our banner. One unit, united. Together we stand.</Description>
-	<Style>14-16th Century Italian/German inspiration. Stylish half-capes, occasional wide hats, plate armour</Style>
+	<Style>14-16th Century Italian/Spanish inspiration. Stylish half-capes, occasional wide hats, plate armour</Style>
 	<Accent>Mostly Italian</Accent>
 	<Traits>
 		<Values>Mercenaries for hire</Values>
